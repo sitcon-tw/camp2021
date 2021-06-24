@@ -1,0 +1,241 @@
+export default [{
+    group: "總召組",
+    mail: "a6b6898ed8d1c570e68b6629158f51fb",
+    name: "小知"
+}, {
+    group: "總召組",
+    mail: "a238d9c4b1f0a5685f7c32e3a39d2120",
+    name: "Wama"
+}, {
+    group: "行政組",
+    mail: "602818418612b2ea7b2ea810cc60a900",
+    name: "Leaf"
+}, {
+    group: "行政組",
+    mail: "527d7dc8b64c378b8f5d11b1d6e593ba",
+    name: "EC"
+}, {
+    group: "行政組",
+    mail: "9ae8ff2c7e70c5a72b26898f6d2d066f",
+    name: "TC"
+}, {
+    group: "財務組",
+    mail: "602818418612b2ea7b2ea810cc60a900",
+    name: "Leaf"
+}, {
+    group: "設計組",
+    mail: "e80e0a1888fb2a364662b64a02f5e128",
+    name: "tiwb"
+}, {
+    group: "設計組",
+    mail: "cb3faef3d6a8b0e7b28d4d770fc1d983",
+    name: "雷孟"
+}, {
+    group: "設計組",
+    mail: "0b665be4aed095b3babc51d4852035de",
+    name: "一一"
+}, {
+    group: "設計組",
+    mail: "63e8d77f1f3a7a34e252a9c30fff2aa2",
+    name: "銳銳"
+}, {
+    group: "設計組",
+    mail: "106edef1a54356033d637a7f90ec6d30",
+    name: "葦"
+}, {
+    group: "課活組",
+    mail: "147530bb3df05ac8b4631a3fa0bbac6d",
+    name: "貓又"
+}, {
+    group: "課活組",
+    mail: "5b558c8821a9a1ccc445f5232a102f99",
+    name: "四季紅"
+}, {
+    group: "課活組",
+    mail: "9c08215f31eb6005a25be6521bf47b0a",
+    name: "Denny Huang"
+}, {
+    group: "課活組",
+    mail: "18eb366edd0ccc5725ce36e0038cc862",
+    name: "白兔"
+}, {
+    group: "課活組",
+    mail: "8d49c79256460884cb52c94e8292fca9",
+    name: "Chris"
+}, {
+    group: "課活組",
+    mail: "81e9ebf69498e56bda45bfb4d844ba97",
+    name: "霽夜"
+}, {
+    group: "課活組",
+    mail: "a0bf2ae346cb12358df577151ee29888",
+    name: "Sean"
+}, {
+    group: "課活組",
+    mail: "c2dc195c07fcd533dc73c72886aa55ba",
+    name: "entroy"
+}, {
+    group: "課活組",
+    mail: "3b5c1e780a3ca15b76c59ac2f3a2109f",
+    name: "橋毅"
+}, {
+    group: "課活組",
+    mail: "c379feb8a2073843af848ba6020d9805",
+    name: "CSY"
+}, {
+    group: "課活組",
+    mail: "4198485651e2982da9c080d0c790e0e8",
+    name: "Dole"
+}, {
+    group: "課活組",
+    mail: "2862aaa83973f4ad76cb552302da103b",
+    name: "康喔"
+}, {
+    group: "課活組",
+    mail: "e744567b3c3baf271a794a6db79fa64c",
+    name: "書宇"
+}, {
+    group: "庶務組",
+    mail: "8d9d7b0aeeff7525199ec8e67f8ef0fa",
+    name: "可晴"
+}, {
+    group: "庶務組",
+    mail: "7e1d6e3b7642e42a162c9f5ab3e3c834",
+    name: "Rex Wu"
+}, {
+    group: "庶務組",
+    mail: "282ecd3d0625ff29aecf3e7261c631c1",
+    name: "Soda"
+}, {
+    group: "庶務組",
+    mail: "423fa4551b60d01702e1d83e0e02fbb6",
+    name: "Dave"
+}, {
+    group: "庶務組",
+    mail: "1b24c32ed58f434165e5c3d8bfdcf3fd",
+    name: "練練"
+}, {
+    group: "紀錄組",
+    mail: "4e9d08c3b268edcc82ccfa958eda5e66",
+    name: "月太"
+}, {
+    group: "紀錄組",
+    mail: "f4d2d82b00f14d8b54f9999f7ac909eb",
+    name: "葦葦"
+}, {
+    group: "紀錄組",
+    mail: "5cc61d042786a059cd09aac32227bdf3",
+    name: "Wen"
+}, {
+    group: "紀錄組",
+    mail: "e10d7d1cecf2b1d8bf2bcb8cacacff57",
+    name: "Xanonymous"
+}, {
+    group: "隊輔組",
+    mail: "1a89d85b1504bf9268d9cb0dec09e222",
+    name: "小徐"
+}, {
+    group: "隊輔組",
+    mail: "cdade6f4871313de8425f02471da9679",
+    name: "Vincent55"
+}, {
+    group: "隊輔組",
+    mail: "284313f3541e3f1cf248f9c06ed17368",
+    name: "Rong"
+}, {
+    group: "隊輔組",
+    mail: "1ec8db9c1cd57aee84467f250353bf12",
+    name: "小易"
+}, {
+    group: "隊輔組",
+    mail: "2162367e6dd93f5c602644317af3cfcd",
+    name: "Haha(CPY)"
+}, {
+    group: "隊輔組",
+    mail: "aa520a04ba552cf4868aa896491e3199",
+    name: "郭郭"
+}, {
+    group: "隊輔組",
+    mail: "6b14906318f302178e92542ee136b378",
+    name: "雷雷"
+}, {
+    group: "隊輔組",
+    mail: "5147c378d434178134bc21e52a3ee87a",
+    name: "HM"
+}, {
+    group: "隊輔組",
+    mail: "1105fc8ec9364f8e8427b1e53f12e5ef",
+    name: "鴨嘴獸"
+}, {
+    group: "隊輔組",
+    mail: "8d682c8391522cc11c24fafa04dd8f56",
+    name: "舟"
+}, {
+    group: "隊輔組",
+    mail: "de92e403a228bbd8921f45976263e5a6",
+    name: "小瓜呆"
+}, {
+    group: "隊輔組",
+    mail: "0c61ff5d13d8118246a5be6662de1543",
+    name: "銀月"
+}, {
+    group: "隊輔組",
+    mail: "caccc05f941a67594fd5e92d67409eb8",
+    name: "Jason"
+}, {
+    group: "隊輔組",
+    mail: "9b445ce336bc0e4b672a2f4ef2d9c550",
+    name: "浩堂"
+}, {
+    group: "隊輔組",
+    mail: "c950910aa0cbc64df7f9b9b11094083d",
+    name: "小貝"
+}, {
+    group: "隊輔組",
+    mail: "4e620f9afb044800d24941780e1542e9",
+    name: "小庭"
+}, {
+    group: "隊輔組",
+    mail: "d099b6bcffd429e94d19607091b9616c",
+    name: "尚哲(Jack Liu)"
+}, {
+    group: "隊輔組",
+    mail: "e263e41b1e3b1e55f8ce22e3b8602993",
+    name: "小杰"
+}, {
+    group: "隊輔組",
+    mail: "92e458c08b57ea66ecd453dce77278cd",
+    name: "煥杰"
+}, {
+    group: "隊輔組",
+    mail: "82faa4240ba3f3cc9cd0e5c467433b1e",
+    name: "亮亮"
+}, {
+    group: "隊輔組",
+    mail: "0a664233fc8e1205b04839b1718e05bb",
+    name: "Deemo Harlos"
+}, {
+    group: "隊輔組",
+    mail: "1d74229af9b2a1001c2ac1a9705366b3",
+    name: "雅筠"
+}, {
+    group: "編輯組",
+    mail: "e997e74cd1dfba44a11030f705ab3445",
+    name: "A同學"
+}, {
+    group: "編輯組",
+    mail: "924f6f3e50432d9532ca8e4e13fcb1ad",
+    name: "維特"
+}, {
+    group: "編輯組",
+    mail: "527d7dc8b64c378b8f5d11b1d6e593ba",
+    name: "EC"
+}, {
+    group: "編輯組",
+    mail: "0bbcabecb50e45ff0fab43a99eaa106c",
+    name: "Atlas"
+}, {
+    group: "開發組",
+    mail: "0ec6b0bf31c378645f536452d46adfb0",
+    name: "可愛勝勝"
+}]
