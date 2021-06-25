@@ -24,6 +24,9 @@ export default {
     ]
   },
 
+  router: {
+    base: '/camp2021/'
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
