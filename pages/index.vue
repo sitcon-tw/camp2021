@@ -22,7 +22,7 @@
           <p>2014 年至今，SITCON 夏令營已將邁入第五屆，在此之前課程內容涵蓋開源碼、資訊安全、Maker、Python、後端的 Node.js、前端的資料爬蟲、視覺化等，更有社群闖關、視界咖啡館、黑客松等活動，讓學員充分吸收新知、動手實作、尋找自己的愛好及興趣，進而加入我們一起推動 Open Source。</p>
         </div>
         <div class="img" style="min-width: 400px">
-          <img src="/img/camp.png" />
+          <img src="/img/48711198528_e7ac02a80b_k.jpg" />
         </div>
         <img src="/img/flag.svg" class="flag-img" />
       </div>
