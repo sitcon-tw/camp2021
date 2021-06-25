@@ -13,9 +13,7 @@
         class="link"
       >{{item.title}}</nuxt-link>
     </div>
-    <div class="menu" @click="showLink">
-      <img src="/img/menu_white_24dp.svg" />
-    </div>
+    <div class="menu" :class="{active: link}" @click="showLink">A</div>
   </nav>
 </template>
 
@@ -73,6 +71,13 @@ nav
   .menu
     grid-area: menu
     display: none
+    font-family: "Anicons Regular", sans-serif
+    font-size: 24px
+    font-variation-settings: "TIME" 1
+    transition: font-variation-settings 0.4s ease
+    user-select: none
+    &.active
+      font-variation-settings: "TIME" 100
 @media screen and (max-width: 768px)
   nav
     display: grid
@@ -89,10 +94,12 @@ nav
       transition: all .2s ease
       transform-origin: top center
       max-height: 0px
+      opacity: 0
       &.show
         margin-top: 8px
         transform: scaleY(1)
         max-height: 200px
+        opacity: 1
       .link
         display: block
 </style>
