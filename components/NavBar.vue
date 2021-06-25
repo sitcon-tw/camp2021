@@ -1,8 +1,8 @@
 <template>
   <nav>
     <nuxt-link class="logo-link" to="/">
-      <img class="star" src="/img/star.svg" />
-      <img class="logo" src="/img/sitcon-camp-mini.svg" />
+      <img class="star" src="/2021/img/star.svg" />
+      <img class="logo" src="/2021/img/sitcon-camp-mini.svg" />
     </nuxt-link>
     <div style="flex:1" />
     <div class="links" :class="{show: link}" @click="link=false">

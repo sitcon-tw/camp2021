@@ -2,11 +2,11 @@
   <div>
     <div class="hero-header">
       <div class="container">
-        <img src="/img/hero-logo.svg" width="300px" class="hero-logo" />
-        <img src="/img/stars1.svg" class="stars1" v-rellax="{ speed: -1 }" />
-        <img src="/img/stars2.svg" class="stars2" v-rellax="{ speed: -1.2 }" />
-        <img src="/img/saturn.svg" class="saturn" v-rellax="{ speed: 1.5 }" />
-        <img src="/img/rocket.svg" class="rocket" v-rellax="{ speed: -1 }" />
+        <img src="/2021/img/hero-logo.svg" width="300px" class="hero-logo" />
+        <img src="/2021/img/stars1.svg" class="stars1" v-rellax="{ speed: -1 }" />
+        <img src="/2021/img/stars2.svg" class="stars2" v-rellax="{ speed: -1.2 }" />
+        <img src="/2021/img/saturn.svg" class="saturn" v-rellax="{ speed: 1.5 }" />
+        <img src="/2021/img/rocket.svg" class="rocket" v-rellax="{ speed: -1 }" />
       </div>
     </div>
     <div class="slogan">
@@ -22,9 +22,9 @@
           <p>2014 年至今，SITCON 夏令營已將邁入第六屆，在此之前課程內容涵蓋開源碼、資訊安全、Maker、Python、後端的 Node.js、前端的資料爬蟲、視覺化等，更有社群闖關、視界咖啡館、黑客松等活動，讓學員充分吸收新知、動手實作、尋找自己的愛好及興趣，進而加入我們一起推動 Open Source。</p>
         </div>
         <div class="img" style="min-width: 400px">
-          <img src="/img/48711198528_e7ac02a80b_k.jpg" />
+          <img src="/2021/img/48711198528_e7ac02a80b_k.jpg" />
         </div>
-        <img src="/img/flag.svg" class="flag-img" />
+        <img src="/2021/img/flag.svg" class="flag-img" />
       </div>
       <h2 id="課程活動" style="padding-top: 64px">課程活動</h2>
       <time-table />
@@ -35,7 +35,7 @@
           <p>除基礎課程與廣度課程外，我們也邀請到許多在資訊領域打滾多年的人士分享自身經驗，期許迷茫中的學員，可以點燃未來的一盞明燈，找到屬於自己的資訊之路！</p>
         </div>
         <div class="img">
-          <img src="/img/48711673932_dd4e775482_k.jpg" />
+          <img src="/2021/img/48711673932_dd4e775482_k.jpg" />
         </div>
       </div>
       <div class="img-content-container">
@@ -44,25 +44,33 @@
           <p>參考自世界咖啡館（The World Café），在本次夏令營中，我們邀請到各領域及社群知名前輩，將傳統座談會形式改以聊天的樣貌呈現。學員可以與資訊界的名人們近距離互動，期望透過縮短講者與學員之間的距離，講者可以更針對學員給出建議，也鼓勵學員踴躍提問、參與，進而產生良好的雙向交流。</p>
         </div>
         <div class="img">
-          <img src="/img/48711185743_0289ac2d95_k.jpg" />
+          <img src="/2021/img/48711185743_0289ac2d95_k.jpg" />
         </div>
       </div>
       <div class="img-content-container">
         <div class="content">
           <h2>社群闖關</h2>
-          <p>就算有疫情，社群也從不缺席！<br /><br />社群闖關邀請許多資訊相關社群前來擺攤，藉由互動遊戲、影片欣賞、專人介紹…等方式，讓學員認識所謂的「社群」，並初步了解開源活動有的了解。</p>
+          <p>
+            就算有疫情，社群也從不缺席！
+            <br />
+            <br />社群闖關邀請許多資訊相關社群前來擺攤，藉由互動遊戲、影片欣賞、專人介紹…等方式，讓學員認識所謂的「社群」，並初步了解開源活動有的了解。
+          </p>
         </div>
         <div class="img">
-          <img src="/img/48711417321_9811d901a1_k.jpg" />
+          <img src="/2021/img/48711417321_9811d901a1_k.jpg" />
         </div>
       </div>
       <div class="img-content-container">
         <div class="content">
           <h2>Hackathon</h2>
-          <p>黑客松（Hackathon）是「黑客」（Hack；原指早期為電腦系統找尋不完美的地方，或是探索不同的解法，來改善電腦系統）與「馬拉松」（Marathon）的組合字。顧名思議，黑客松就是程式設計、工程界的馬拉松，由有興趣的一群人在有限的時間內，發揮自己的專長做出一個有特色的專案。<br /><br />因應線上夏令營的舉辦形式，我們準備了共同編輯的工具，讓大家不踏出家門，也能與夥伴一起完成專案！</p>
+          <p>
+            黑客松（Hackathon）是「黑客」（Hack；原指早期為電腦系統找尋不完美的地方，或是探索不同的解法，來改善電腦系統）與「馬拉松」（Marathon）的組合字。顧名思議，黑客松就是程式設計、工程界的馬拉松，由有興趣的一群人在有限的時間內，發揮自己的專長做出一個有特色的專案。
+            <br />
+            <br />因應線上夏令營的舉辦形式，我們準備了共同編輯的工具，讓大家不踏出家門，也能與夥伴一起完成專案！
+          </p>
         </div>
         <div class="img">
-          <img src="/img/48711667217_a251f33169_k.jpg" />
+          <img src="/2021/img/48711667217_a251f33169_k.jpg" />
         </div>
       </div>
       <div class="img-content-container">
@@ -73,7 +81,7 @@
           <p>兩千年過後的現在，地球上的生命體不是壽命已到離開了這個世界，就是已經離開地球，到宇宙當中生存了。 ———現在，我們將要重新返航到地球去，將地球開源力的能量來源『小石』帶回到地球中，讓地球回到 2000 年前的美麗，不再如此的了無生息。</p>
         </div>
         <div class="img">
-          <img src="/img/sitcon.jpg" />
+          <img src="/2021/img/sitcon.jpg" />
         </div>
       </div>
     </div>
@@ -102,10 +110,7 @@
         </splide>
       </div>
       <div class="bottom-btns">
-        <a
-          href="https://www.youtube.com/watch?v=oAtiOrpj6DQ"
-          target="_blank"
-        >查看完整回顧影片</a>
+        <a href="https://www.youtube.com/watch?v=oAtiOrpj6DQ" target="_blank">查看完整回顧影片</a>
         <a href="https://www.flickr.com/photos/sitcon/albums" target="_blank">查看更多照片</a>
       </div>
     </div>
@@ -199,23 +204,23 @@ export default {
     },
     imageWall: {
       row1: [
-        "/img/48711148968_c0c5b92648_k.jpg",
-        "/img/48711158398_a9e76fe8c6_k.jpg",
-        "/img/48711173683_6a5438b593_k.jpg",
-        "/img/48711180203_df7f6ba7b3_k.jpg",
-        "/img/48711432406_1dc02a6270_k.jpg",
-        "/img/48711460716_f573528caf_k.jpg",
-        "/img/48711478201_f0b3b61d1f_k.jpg"
+        "/2021/img/48711148968_c0c5b92648_k.jpg",
+        "/2021/img/48711158398_a9e76fe8c6_k.jpg",
+        "/2021/img/48711173683_6a5438b593_k.jpg",
+        "/2021/img/48711180203_df7f6ba7b3_k.jpg",
+        "/2021/img/48711432406_1dc02a6270_k.jpg",
+        "/2021/img/48711460716_f573528caf_k.jpg",
+        "/2021/img/48711478201_f0b3b61d1f_k.jpg"
       ],
       row2: [
-        "/img/48711504911_54e1d297c7_k.jpg",
-        "/img/48711513221_eddbacab82_k.jpg",
-        "/img/48711514086_fe8bcd70a3_k.jpg",
-        "/img/48711645867_304b3f2727_k.jpg",
-        "/img/48711654047_e36f5fe98d_k.jpg",
-        "/img/48711655747_6f4d128066_k.jpg",
-        "/img/48711675447_324a2915f4_k.jpg",
-        "/img/48711684617_e8d23396b3_k.jpg"
+        "/2021/img/48711504911_54e1d297c7_k.jpg",
+        "/2021/img/48711513221_eddbacab82_k.jpg",
+        "/2021/img/48711514086_fe8bcd70a3_k.jpg",
+        "/2021/img/48711645867_304b3f2727_k.jpg",
+        "/2021/img/48711654047_e36f5fe98d_k.jpg",
+        "/2021/img/48711655747_6f4d128066_k.jpg",
+        "/2021/img/48711675447_324a2915f4_k.jpg",
+        "/2021/img/48711684617_e8d23396b3_k.jpg"
       ]
     }
   })
@@ -282,7 +287,7 @@ export default {
   margin-bottom: 60px
   position: relative
 .review
-  //background-image: url('/img/51260350196_1e24756478_5k.jpg')
+  //background-image: url('/2021/img/51260350196_1e24756478_5k.jpg')
   background-color: #000
   background-size: cover
   margin: 32px 0
