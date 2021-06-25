@@ -90,11 +90,11 @@ nav
       align-items: center
       justify-content: flex-end
     .links
-      transform: scaleY(0)
       transition: all .2s ease
       transform-origin: top center
       max-height: 0px
       opacity: 0
+      overflow: hidden
       &.show
         margin-top: 8px
         transform: scaleY(1)
