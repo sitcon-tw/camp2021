@@ -27,7 +27,7 @@
         <img src="/img/flag.svg" class="flag-img" />
       </div>
       <h2 id="課程活動" style="padding-top: 64px">課程活動</h2>
-      <p>[[還沒放]]</p>
+      <time-table />
       <div class="img-content-container">
         <div class="content">
           <h2>廣度課程與短講</h2>
