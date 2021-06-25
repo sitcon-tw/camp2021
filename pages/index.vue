@@ -6,7 +6,7 @@
         <img src="/img/stars1.svg" class="stars1" v-rellax="{ speed: -1 }" />
         <img src="/img/stars2.svg" class="stars2" v-rellax="{ speed: -1.2 }" />
         <img src="/img/saturn.svg" class="saturn" v-rellax="{ speed: 1.5 }" />
-        <img src="/img/rocket.svg" class="rocket" />
+        <img src="/img/rocket.svg" class="rocket" v-rellax="{ speed: -1 }" />
       </div>
     </div>
     <div class="slogan">
@@ -14,13 +14,12 @@
       <h1 class="text-center">由資訊社群所打造，超高知識含量的夏令營</h1>
     </div>
     <div class="container">
-      <div class="img-content-container" style="position: relative">
+      <div class="img-content-container" style="position: relative;">
         <div class="content">
           <p
             style="margin-top:0;"
           >有鑑於資訊領域逐漸成為科技時代的重要學門，社群與開源精神亦持續抬頭，SITCON 團隊認為將資訊教育向下扎根，為在資訊科學領域有興趣的學生提供一個親切而良好的機會入門，並播灑開源種子，是一件相當重要且值得去做的事情。</p>
           <p>2014 年至今，SITCON 夏令營已將邁入第五屆，在此之前課程內容涵蓋開源碼、資訊安全、Maker、Python、後端的 Node.js、前端的資料爬蟲、視覺化等，更有社群闖關、視界咖啡館、黑客松等活動，讓學員充分吸收新知、動手實作、尋找自己的愛好及興趣，進而加入我們一起推動 Open Source。</p>
-          <p>有鑑於資訊領域逐漸成為科技時代的重要學門，社群與開源精神亦持續抬頭，SITCON 團隊認為將資訊教育向下扎根，為在資訊科學領域有興趣的學生提供一個親切而良好的機會入門，並播灑開源種子，是一件相當重要且值得去做的事情。 有鑑於資訊領域逐漸成為科技時代的重要學門，社群與開源精神亦持續抬頭，SITCON 團隊認為將資訊教育向下扎根</p>
         </div>
         <div class="img" style="min-width: 400px">
           <img src="/img/camp.png" />
@@ -92,7 +91,7 @@
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem</p>
       </div>
       <div class="image-wall">
-        <splide :options="{...imageWallOptions,interval: 5000}">
+        <splide :options="{...imageWallOptions,interval: 5000,focus: 'center'}">
           <splide-slide v-for="item of imageWall.row1" :key="item">
             <img :src="item" />
           </splide-slide>
@@ -125,21 +124,25 @@
       <div class="img-content-container non-reverse">
         <div class="content">
           報名時間
-          <h2>即日起 ~ 2021/06/xx</h2>
+          <h2>即日起 ~ 2021/07/10</h2>
         </div>
         <div class="img">
-          <a class="signup-btn">前往報名</a>
+          <a
+            class="signup-btn"
+            href="https://sitcon.kktix.cc/events/sitcon-camp2021"
+            target="_blank"
+          >前往報名</a>
         </div>
       </div>
       <h1 style="padding-top: 64px">活動費用</h1>
       <div class="price-container">
         <div class="price-item">
           個人報名
-          <br />6500 NTD/人
+          <br />4500 NTD/人
         </div>
         <div class="price-item">
           團體報名
-          <br />5900 NTD/人
+          <br />4200 NTD/人
         </div>
       </div>
       <div class="price-note">
@@ -184,13 +187,12 @@ export default {
       gap: "10px",
       height: 300,
       heightRatio: 0.4,
-      focus: "center",
       autoplay: true,
       cover: true,
       arrows: false,
       pagination: false,
       breakpoints: {
-        600: {
+        768: {
           perPage: 2,
           height: 200
         }
@@ -223,6 +225,8 @@ export default {
 <style lang="sass">
 .hero-header
   margin-top: 128px
+  width: 100vw
+  overflow: hidden
   .container
     position: relative
     height: 70vh
@@ -244,15 +248,15 @@ export default {
       left: 0
       bottom: 0
     .rocket
-      right: 0
-      bottom: 0
-      transform: translate(-80px, -80px)
+      right: 80px
+      bottom: 120px
 
 @media screen and (max-width: 768px)
   .hero-header
     .container
       .stars1
         width: 100%
+        left: 0
       .stars2
         width: 100%
         top: 128px
@@ -263,10 +267,14 @@ export default {
 
 .flag-img
   position: absolute
-  right: calc(289px / 2 * -1)
+  right: 0
+  right: -100px
   top: -318px
   z-index: 0
 
+@media screen and (max-width: 1100px)
+  .flag-img
+    right: 0
 @media screen and (max-width: 768px)
   .flag-img
     display: none
@@ -288,6 +296,7 @@ export default {
     height: 100%
     object-fit: cover
     opacity: .4
+    pointer-events: none
   .container
     position: relative
     margin-bottom: 32px
@@ -338,6 +347,11 @@ export default {
   background-color: #73A985
   padding: 16px 32px
   border-radius: 16px
+  text-decoration: none
+  &:hover
+    box-shadow: inset 0 0 10em rgba(0, 0, 0, .1)
+  &:active
+    box-shadow: inset 0 0 10em rgba(0, 0, 0, .2)
 
 @media screen and (max-width: 768px)
   .signup-btn

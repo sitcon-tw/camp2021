@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'SITCON Camp 2021',
+    title: 'SITCON Camp Online 2021',
     htmlAttrs: {
       lang: 'zh-TW'
     },

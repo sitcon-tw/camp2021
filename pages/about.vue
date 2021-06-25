@@ -81,21 +81,22 @@ export default {
 </script>
 <style lang="sass">
 .group
-    margin: 40px 0
-    h2
-        margin-bottom: 20px
-    .items
-        display: flex
-        flex-wrap: wrap
-        .item
-            margin: 8px 25px
-            img
-                --size: 85px
-                width: var(--size)
-                height: var(--size)
-                border-radius: 100em
-                background-color: #fff
-            .name
-                text-align: center
-                font-size: 14px
+  margin: 40px 0
+  h2
+    margin-bottom: 20px
+  .items
+    display: flex
+    flex-wrap: wrap
+    gap: 24px
+    .item
+      margin: 8px 0
+      img
+        --size: 85px
+        width: var(--size)
+        height: var(--size)
+        border-radius: 100em
+        background-color: #fff
+      .name
+        text-align: center
+        font-size: 14px
 </style>
