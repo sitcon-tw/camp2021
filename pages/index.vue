@@ -103,7 +103,7 @@
       </div>
       <div class="bottom-btns">
         <a
-          href="https://drive.google.com/file/d/1D1kaFKryORd61JQqsj_bO93xsrJDa1JL/view"
+          href="https://www.youtube.com/watch?v=oAtiOrpj6DQ"
           target="_blank"
         >查看完整回顧影片</a>
         <a href="https://www.flickr.com/photos/sitcon/albums" target="_blank">查看更多照片</a>
