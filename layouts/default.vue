@@ -14,7 +14,7 @@ body,html
   background-color: #192C35
   color: #FFF
   margin: 0
-  overflow: hidden
+  overflow-x: hidden
 h1,h2,h3,h4,h5,h6
   margin: 0
 a
