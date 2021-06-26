@@ -18,7 +18,9 @@ body,html
   line-height: 1.4em
 a
   color: #fff
-
+h1,h2,h3,h4,h5,h6
+  line-height: 1.25em
+  margin: 0
 .container
   max-width: 1000px
   margin: 0 auto
