@@ -130,16 +130,15 @@
       </div>
     </div>
     <splide :options="{...reportOptions}" style="margin: 32px 0" id="report-splide">
-      <splide-slide>
+      <splide-slide v-for="({name,avatar,content,link,year},i) of reportItems" :key="i">
         <div class="report">
-          <img class="avatar" src="/img/avatar.png" />
-          <div class="title">SITCON Camp 2017 學員</div>
-          <div class="name">William Mou</div>
-          <div
-            class="content"
-          >學生計算機年會（SITCON）簡單來說就是每年為喜歡資訊的學生舉辦的年會，會要請需多資訊界重量級講師來進行演講，而 SITCON 夏令營則是為學生舉辦的資訊營隊活動....</div>
+          <img class="avatar" :src="avatar" />
+          <div class="title">SITCON Camp {{year}} 學員</div>
+          <div class="name">{{name}}</div>
+          <div class="content" v-html="content.replace(/\n/g,'<br>')" />
           <div class="readmore">
-            <a>閱讀全文</a>
+            <a :href="link" target="_blank" v-if="link.startsWith('http')">閱讀全文</a>
+            <router-link :to="link" v-else>閱讀全文</router-link>
           </div>
         </div>
       </splide-slide>
@@ -234,6 +233,48 @@ export default {
         }
       }
     },
+    reportItems: [
+      {
+        name: "William Mou",
+        avatar: "https://i.imgur.com/rnV72WM.jpg",
+        year: 2017,
+        content:
+          "學生計算機年會（SITCON）簡單來說就是每年為喜歡資訊的學生舉辦的年會，會要請需多資訊界重量級講師來進行演講，而 SITCON 夏令營則是為學生舉辦的資訊營隊活動....",
+        link: "https://anjoincamp.blogspot.com/2019/08/sitcon-camp.html"
+      },
+      {
+        name: "李杰穎",
+        avatar: "https://i.imgur.com/SY6Zi2x.jpg",
+        year: 2019,
+        content:
+          "這是我參加過課程最硬的營隊，也是唯一一次在營期中熬夜到三點的。\n這次程式開發的經驗真的讓我了解到什麼叫跟時間賽跑，我從來沒有打code打到凌晨3點，早上7點起來繼續的經驗。而且做出來的成品是真的可以用的，就真的非常非常有成就感，期望以後還有機會體驗到這種開發的經驗。\nSITCON 2020 我會去的！！！（當工人感覺不錯呢）",
+        link: "https://jayin92.github.io/posts/2019-sitcon-camp/"
+      },
+      {
+        name: "Vincent",
+        avatar: "https://i.imgur.com/I7iV7Fo.jpg",
+        year: 2019,
+        content:
+          "在參加 SITCON 夏令營前，我只知道資訊中的演算法競賽，參加後，我知道資安、專案開發、人工智慧…等領域，甚至認識到了在這些領域前段的社群朋友們。\n以我自己的經驗，我參加了…",
+        link: "/report/vincent"
+      },
+      {
+        name: "陳俊宇",
+        avatar: "https://i.imgur.com/RlcXMX1.png",
+        year: 2019,
+        content:
+          "Telegram bot 技術門檻不高，只要會一些基本的 Python 語法就能做出來，這也是這五天 SITCON 夏令營的主要課程之一。\n我們的黑客松題目：猜歌機器人，不知道你有沒有這樣的經驗，和一群動漫迷時，放一首動漫歌曲，看對方由沒有聽過；而這次的黑客松，我們小隊打算在 Telegram 上做一個猜歌機器人，主要流程如下…",
+        link: "https://forum.gamer.com.tw/C.php?bsn=60292&snA=5734&tnum=1"
+      },
+      {
+        name: "楊芷安",
+        avatar: "/2021/img/avatar.svg",
+        year: 2019,
+        content:
+          "“視”界咖啡館使用座談會的形式對講師們問問題，輪到與PCman的訪談，其實一開始我對他比較沒有那麼感興趣，但後來他分享自己如何從學醫回到資工的經驗還挺精彩的，他也將醫生檢查病人的那套 SOP 運用在 debug 上，強大的 SOP，居然不只可以用在當市長，還可以 debug 啊~",
+        link: "https://anjoincamp.blogspot.com/2019/08/sitcon-camp.html"
+      }
+    ],
     imageWallOptions: {
       type: "loop",
       perPage: 6,
@@ -348,7 +389,6 @@ export default {
   margin-bottom: 60px
   position: relative
 .review
-  //background-image: url('/2021/img/51260350196_1e24756478_5k.jpg')
   background-color: #000
   background-size: cover
   margin: 32px 0
@@ -382,6 +422,7 @@ export default {
 
 .bottom-btns
   padding: 64px 0
+  position: relative
   text-align: center
   a
     background-color: rgba(255,255,255,.2)
@@ -496,7 +537,8 @@ export default {
       content: ''
       height: 100%
       width: 200px
-      z-index: 2
+      z-index: 1
+      pointer-events: none
   .report
     background-color: #fff
     border-radius: 16px
@@ -517,8 +559,6 @@ export default {
     .content
       text-align: left
       margin-top: 16px
-      &:hover
-        opacity: .9
     .readmore
       margin-top: 16px
       text-align: right
@@ -527,6 +567,7 @@ export default {
         padding: 8px 16px
         border-radius: 100em
         color: #fff
+        text-decoration: none
         &:hover
           opacity: .8
         &:active
