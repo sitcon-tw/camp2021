@@ -26,66 +26,68 @@
         </div>
         <img src="/2021/img/flag.svg" class="flag-img" />
       </div>
-      <h2 id="課程活動" style="padding-top: 64px">課程活動</h2>
-      <time-table />
-      <div class="img-content-container">
-        <div class="content">
-          <h2>廣度課程與短講</h2>
-          <p>為避免單一的教學方式限制了學員對資訊領域的視野，因此我們特別安排了廣度課程。讓學員在學習基礎課程之餘，也能學到資訊領域的其他層面，增加自身資訊技能的廣度</p>
-          <p>除基礎課程與廣度課程外，我們也邀請到許多在資訊領域打滾多年的人士分享自身經驗，期許迷茫中的學員，可以點燃未來的一盞明燈，找到屬於自己的資訊之路！</p>
+      <section id="課程活動" style="padding-top: 128px;margin-top: -96px">
+        <h1 style="margin: 16px 0">課程活動</h1>
+        <time-table />
+        <div class="img-content-container">
+          <div class="content">
+            <h2>廣度課程與短講</h2>
+            <p>為避免單一的教學方式限制了學員對資訊領域的視野，因此我們特別安排了廣度課程。讓學員在學習基礎課程之餘，也能學到資訊領域的其他層面，增加自身資訊技能的廣度</p>
+            <p>除基礎課程與廣度課程外，我們也邀請到許多在資訊領域打滾多年的人士分享自身經驗，期許迷茫中的學員，可以點燃未來的一盞明燈，找到屬於自己的資訊之路！</p>
+          </div>
+          <div class="img">
+            <img src="/2021/img/48711673932_dd4e775482_k.jpg" />
+          </div>
         </div>
-        <div class="img">
-          <img src="/2021/img/48711673932_dd4e775482_k.jpg" />
+        <div class="img-content-container">
+          <div class="content">
+            <h2>視界咖啡館</h2>
+            <p>參考自世界咖啡館（The World Café），在本次夏令營中，我們邀請到各領域及社群知名前輩，將傳統座談會形式改以聊天的樣貌呈現。學員可以與資訊界的名人們近距離互動，期望透過縮短講者與學員之間的距離，講者可以更針對學員給出建議，也鼓勵學員踴躍提問、參與，進而產生良好的雙向交流。</p>
+          </div>
+          <div class="img">
+            <img src="/2021/img/48711185743_0289ac2d95_k.jpg" />
+          </div>
         </div>
-      </div>
-      <div class="img-content-container">
-        <div class="content">
-          <h2>視界咖啡館</h2>
-          <p>參考自世界咖啡館（The World Café），在本次夏令營中，我們邀請到各領域及社群知名前輩，將傳統座談會形式改以聊天的樣貌呈現。學員可以與資訊界的名人們近距離互動，期望透過縮短講者與學員之間的距離，講者可以更針對學員給出建議，也鼓勵學員踴躍提問、參與，進而產生良好的雙向交流。</p>
+        <div class="img-content-container">
+          <div class="content">
+            <h2>社群闖關</h2>
+            <p>
+              就算有疫情，社群也從不缺席！
+              <br />
+              <br />社群闖關邀請許多資訊相關社群前來擺攤，藉由互動遊戲、影片欣賞、專人介紹…等方式，讓學員認識所謂的「社群」，並初步了解開源活動有的了解。
+            </p>
+          </div>
+          <div class="img">
+            <img src="/2021/img/48711417321_9811d901a1_k.jpg" />
+          </div>
         </div>
-        <div class="img">
-          <img src="/2021/img/48711185743_0289ac2d95_k.jpg" />
+        <div class="img-content-container">
+          <div class="content">
+            <h2>Hackathon</h2>
+            <p>
+              黑客松（Hackathon）是「黑客」（Hack；原指早期為電腦系統找尋不完美的地方，或是探索不同的解法，來改善電腦系統）與「馬拉松」（Marathon）的組合字。顧名思議，黑客松就是程式設計、工程界的馬拉松，由有興趣的一群人在有限的時間內，發揮自己的專長做出一個有特色的專案。
+              <br />
+              <br />因應線上夏令營的舉辦形式，我們準備了共同編輯的工具，讓大家不踏出家門，也能與夥伴一起完成專案！
+            </p>
+          </div>
+          <div class="img">
+            <img src="/2021/img/48711667217_a251f33169_k.jpg" />
+          </div>
         </div>
-      </div>
-      <div class="img-content-container">
-        <div class="content">
-          <h2>社群闖關</h2>
-          <p>
-            就算有疫情，社群也從不缺席！
-            <br />
-            <br />社群闖關邀請許多資訊相關社群前來擺攤，藉由互動遊戲、影片欣賞、專人介紹…等方式，讓學員認識所謂的「社群」，並初步了解開源活動有的了解。
-          </p>
+        <div class="img-content-container">
+          <div class="content">
+            <h2>故事劇情</h2>
+            <p>在解決了 SITCON 艦艇號的問題後，在宇宙中的隊長們終於意識到我們的地球在小石被替除的前隊員拿走後，就已經失去開源力了。</p>
+            <p>宇宙中的萬物都需要仰賴開源力來維持生命，而地球的開源力被取走了，也不再產生新生命了。</p>
+            <p>兩千年過後的現在，地球上的生命體不是壽命已到離開了這個世界，就是已經離開地球，到宇宙當中生存了。 ———現在，我們將要重新返航到地球去，將地球開源力的能量來源『小石』帶回到地球中，讓地球回到 2000 年前的美麗，不再如此的了無生息。</p>
+          </div>
+          <div class="img">
+            <img src="/2021/img/sitcon.jpg" />
+          </div>
         </div>
-        <div class="img">
-          <img src="/2021/img/48711417321_9811d901a1_k.jpg" />
-        </div>
-      </div>
-      <div class="img-content-container">
-        <div class="content">
-          <h2>Hackathon</h2>
-          <p>
-            黑客松（Hackathon）是「黑客」（Hack；原指早期為電腦系統找尋不完美的地方，或是探索不同的解法，來改善電腦系統）與「馬拉松」（Marathon）的組合字。顧名思議，黑客松就是程式設計、工程界的馬拉松，由有興趣的一群人在有限的時間內，發揮自己的專長做出一個有特色的專案。
-            <br />
-            <br />因應線上夏令營的舉辦形式，我們準備了共同編輯的工具，讓大家不踏出家門，也能與夥伴一起完成專案！
-          </p>
-        </div>
-        <div class="img">
-          <img src="/2021/img/48711667217_a251f33169_k.jpg" />
-        </div>
-      </div>
-      <div class="img-content-container">
-        <div class="content">
-          <h2>故事劇情</h2>
-          <p>在解決了 SITCON 艦艇號的問題後，在宇宙中的隊長們終於意識到我們的地球在小石被替除的前隊員拿走後，就已經失去開源力了。</p>
-          <p>宇宙中的萬物都需要仰賴開源力來維持生命，而地球的開源力被取走了，也不再產生新生命了。</p>
-          <p>兩千年過後的現在，地球上的生命體不是壽命已到離開了這個世界，就是已經離開地球，到宇宙當中生存了。 ———現在，我們將要重新返航到地球去，將地球開源力的能量來源『小石』帶回到地球中，讓地球回到 2000 年前的美麗，不再如此的了無生息。</p>
-        </div>
-        <div class="img">
-          <img src="/2021/img/sitcon.jpg" />
-        </div>
-      </div>
+      </section>
     </div>
-    <div class="review">
+    <div class="review" id="過往紀錄與回饋">
       <video
         class="video-background"
         autoplay
@@ -94,7 +96,7 @@
         muted
       />
       <div class="container">
-        <h1 id="過往紀錄與回饋">過往紀錄與回饋</h1>
+        <h1>過往紀錄與回饋</h1>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem</p>
       </div>
       <div class="image-wall">
@@ -124,40 +126,41 @@
       <br />
       <br />地點
       <h1>線上平台</h1>相關資訊敬請期待
-      <h1 id="報名資訊" style="padding-top: 64px">報名資訊</h1>
-      <div class="img-content-container non-reverse">
-        <div class="content">
-          報名時間
-          <h2>即日起 ~ 2021/07/10</h2>
+      <section id="報名資訊" style="padding-top: 128px;margin-top: -96px">
+        <h1>報名資訊</h1>
+        <div class="img-content-container non-reverse">
+          <div class="content">
+            報名時間
+            <h2>即日起 ~ 2021/07/10</h2>
+          </div>
+          <div class="img">
+            <a
+              class="signup-btn"
+              href="https://sitcon.kktix.cc/events/sitcon-camp2021"
+              target="_blank"
+            >前往報名</a>
+          </div>
         </div>
-        <div class="img">
-          <a
-            class="signup-btn"
-            href="https://sitcon.kktix.cc/events/sitcon-camp2021"
-            target="_blank"
-          >前往報名</a>
+        <h1 style="padding-top: 64px">活動費用</h1>
+        <div class="price-container">
+          <div class="price-item">
+            個人報名
+            <br />4500 NTD/人
+          </div>
+          <div class="price-item">
+            團體報名
+            <br />4200 NTD/人
+          </div>
         </div>
-      </div>
-      <h1 style="padding-top: 64px">活動費用</h1>
-      <div class="price-container">
-        <div class="price-item">
-          個人報名
-          <br />4500 NTD/人
+        <div class="price-note">
+          <p>三人同時報名，視為團體報名，每團以三人為限，請詳閱 活動報名簡章。</p>
+          <p>本次夏令營預計招收學員 60 名，我們會針對報名資料做簡易審查，非先報先贏。</p>
+          <p>正取學員名單將於 2019 / 06 / 18 公佈，正取學員需完成報名費繳交，始完成報名程序。</p>
+          <p>另設有補助名額，請詳閱 補助辦法。</p>
+          <p>關於退費事宜，請見 退費說明文件。</p>
         </div>
-        <div class="price-item">
-          團體報名
-          <br />4200 NTD/人
-        </div>
-      </div>
-      <div class="price-note">
-        <p>三人同時報名，視為團體報名，每團以三人為限，請詳閱 活動報名簡章。</p>
-        <p>本次夏令營預計招收學員 60 名，我們會針對報名資料做簡易審查，非先報先贏。</p>
-        <p>正取學員名單將於 2019 / 06 / 18 公佈，正取學員需完成報名費繳交，始完成報名程序。</p>
-        <p>另設有補助名額，請詳閱 補助辦法。</p>
-        <p>關於退費事宜，請見 退費說明文件。</p>
-      </div>
+      </section>
     </div>
-
     <div class="more-info">
       <div class="container">
         <section>
@@ -304,8 +307,7 @@ export default {
   .container
     position: relative
     margin-bottom: 32px
-    h1
-      padding-top: 80px
+    padding-top: 120px
 .bottom-btns
   padding: 48px 0
   text-align: center
