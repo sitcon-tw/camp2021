@@ -39,27 +39,27 @@ export default {
     socialMedia: [
       {
         title: "Facebook",
-        icon: "/icon/facebook.svg",
+        icon: "/2021/icon/facebook.svg",
         link: "https://www.facebook.com/SITCONtw"
       },
       {
         title: "Flickr",
-        icon: "/icon/flickr.svg",
+        icon: "/2021/icon/flickr.svg",
         link: "https://www.flickr.com/photos/sitcon/albums"
       },
       {
         title: "Telegram",
-        icon: "/icon/telegram.svg",
+        icon: "/2021/icon/telegram.svg",
         link: "https://t.me/SITCONtw"
       },
       {
         title: "Twitter",
-        icon: "/icon/twitter.svg",
+        icon: "/2021/icon/twitter.svg",
         link: "https://twitter.com/sitcontw"
       },
       {
         title: "YouTube",
-        icon: "/icon/youtube.svg",
+        icon: "/2021/icon/youtube.svg",
         link: "https://www.youtube.com/user/SITCONArchive"
       }
     ]
