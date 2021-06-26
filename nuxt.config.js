@@ -41,6 +41,7 @@ export default {
   plugins: [
     '~/plugins/rellax',
     '~/plugins/splide',
+    '~/plugins/youtube',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

@@ -13,7 +13,8 @@
     "core-js": "^3.9.1",
     "normalize.css": "^8.0.1",
     "nuxt": "^2.15.3",
-    "vue-rellax": "^0.2.0"
+    "vue-rellax": "^0.2.0",
+    "vue-youtube-embed": "^2.2.2"
   },
   "devDependencies": {
     "sass": "^1.35.1",

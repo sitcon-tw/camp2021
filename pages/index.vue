@@ -96,13 +96,15 @@
       </section>
     </div>
     <div class="review" id="過往紀錄與回饋">
-      <video
+      <youtube
         class="video-background"
-        autoplay
-        src="/video/SITCON_CAMP_2019_RELEASE_OFFICIAL_x264.mp4"
-        loop
-        muted
+        @ready="ready"
+        player-width="100%"
+        player-height="100%"
+        mute
+        video-id="oAtiOrpj6DQ"
       />
+
       <div class="container">
         <h1>過往紀錄與回饋</h1>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem</p>
@@ -301,15 +303,16 @@ export default {
   background-size: cover
   margin: 32px 0
   position: relative
-  .video-background
+  .video-background,.video-background iframe
     position: absolute
     top: 0
     left: 0
     width: 100%
     height: 100%
     object-fit: cover
-    opacity: .4
     pointer-events: none
+  .video-background
+    opacity: .4
   .container
     position: relative
     margin-bottom: 32px
