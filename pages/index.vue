@@ -98,7 +98,6 @@
     <div class="review" id="過往紀錄與回饋">
       <youtube
         class="video-background"
-        id="player"
         @ready="videoReady"
         @ended="videoEnded"
         player-width="100%"
@@ -234,14 +233,16 @@ export default {
         "/2021/img/48711675447_324a2915f4_k.jpg",
         "/2021/img/48711684617_e8d23396b3_k.jpg"
       ]
-    }
+    },
+    player: null
   }),
   methods: {
     videoReady(event) {
-      event.target.playVideo();
+      this.player = event.target;
+      this.player.playVideo();
     },
     videoEnded() {
-      this.$refs.player.player.seekTo(0);
+      this.player.seekTo(0);
     }
   }
 };
