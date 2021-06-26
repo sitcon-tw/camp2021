@@ -14,7 +14,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { name: 'description', content: 'SITCON Camp 2021 不畏疫情，線上舉辦！以「開源星球，源力崛起」為主軸，帶領各位一同進入開源宇宙，絕對能讓學員擁有截然不同的營隊體驗。' },
+      { property: 'og:title', content: 'SITCON Camp Online 2021' },
+      { property: 'og:description', content: 'SITCON Camp 2021 不畏疫情，線上舉辦！以「開源星球，源力崛起」為主軸，帶領各位一同進入開源宇宙，絕對能讓學員擁有截然不同的營隊體驗。' },
+      { property: 'og:site_name', content: 'SITCON Camp Online 2021' },
+      { property: 'og:locale', content: 'zh_TW' },
+      //{ property: 'og:image', content: '/img/social.jpg' },
     ],
     link: [
       { rel: 'icon', href: '/2021/img/icon.png' },
