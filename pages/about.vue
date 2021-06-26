@@ -14,7 +14,7 @@
     <h2 class="text-center" style="margin: 40px 0">我們舉辦過的活動</h2>
     <div class="img-content-container">
       <div class="content">
-        <h2>SITCON 年會</h2>
+        <h2 class="with-underline">SITCON 年會</h2>
         <p>
           SITCON 年會是由一群熱愛分享、熱愛資訊領域的學生自主籌辦的活動，致力於資訊教育的普及與推廣。
           <br />
@@ -27,7 +27,7 @@
     </div>
     <div class="img-content-container">
       <div class="content">
-        <h2>Hour of Code</h2>
+        <h2 class="with-underline">Hour of Code</h2>
         <p>Hour of Code 是個一小時介紹計算機科學的活動，希望在揭開程式設計的神秘面紗的同時，說明它是任何人都可以學習的基礎知識，並期望擴展人們在計算機科學領域的參與。</p>
       </div>
       <div class="img">
@@ -36,7 +36,7 @@
     </div>
     <div class="img-content-container">
       <div class="content">
-        <h2>SITCON 夏令營</h2>
+        <h2 class="with-underline">SITCON 夏令營</h2>
         <p>
           SITCON 團隊認為將資訊教育向下扎根、為對資訊科學領域有興趣的學生提供一個親切而良好的機會入門，並撒播開源種子，是一件相當重要且值得去做的事情。
           <br />
@@ -49,7 +49,7 @@
     </div>
     <div class="img-content-container">
       <div class="content">
-        <h2>SITCON 定期聚</h2>
+        <h2 class="with-underline">SITCON 定期聚</h2>
         <p>除了辦理大型活動外，SITCON 也舉辦定期聚，將全台灣各地對於資訊科技相關領域有興趣的學生們串聯起來，透過彼此共享、交流來切磋精進，砥礪自主自學的風氣</p>
       </div>
       <div class="img">
@@ -61,7 +61,10 @@
       <h2>{{group}}</h2>
       <div class="items">
         <div class="item" v-for="({name,mail},i) of members.filter(x=>x.group==group)" :key="i">
-          <img class="avatar" :src="`https://secure.gravatar.com/avatar/${mail}?s=512`" />
+          <img
+            class="avatar"
+            :src="`https://secure.gravatar.com/avatar/${mail}?s=512&d=https://sitcon.camp/2021/img/avatar.png`"
+          />
           <div class="name">{{name}}</div>
         </div>
       </div>

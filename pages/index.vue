@@ -34,7 +34,7 @@
         <time-table />
         <div class="img-content-container">
           <div class="content">
-            <h2 class="course-title">廣度課程</h2>
+            <h2 class="with-underline">廣度課程</h2>
             <p>為避免單一的教學方式限制了學員對資訊領域的視野，夏令營在設計時，特別安排了廣度課程。讓學員在學習基礎課程之餘，也能學到資訊領域的其他層面，增加自身資訊技能的廣度。其中，我們邀請到了許多在資訊圈打滾多年的權威人士分享自身經驗，期許能為迷茫中的學員，點亮未來的一盞明燈，找到屬於自己的資訊路。</p>
           </div>
           <div class="img">
@@ -43,7 +43,7 @@
         </div>
         <div class="img-content-container">
           <div class="content">
-            <h2 class="course-title">視界咖啡館</h2>
+            <h2 class="with-underline">視界咖啡館</h2>
             <p>視界咖啡館參考自世界咖啡館（The World Café），在本次夏令營中，我們邀請到各領域及社群知名前輩，將傳統座談會形式改以聊天的樣貌呈現。學員可以與資訊界的名人們近距離互動，期望透過縮短講者與學員之間的距離，講者可以更針對學員給出建議，也鼓勵學員踴躍提問、參與，進而產生良好的雙向交流。</p>
           </div>
           <div class="img">
@@ -52,7 +52,7 @@
         </div>
         <div class="img-content-container">
           <div class="content">
-            <h2 class="course-title">社群闖關</h2>
+            <h2 class="with-underline">社群闖關</h2>
             <p>就算有疫情，社群也從不缺席！</p>
             <p>社群闖關邀請許多資訊相關社群前來擺攤，藉由互動遊戲、影片欣賞、專人介紹...等方式，讓學員認識所謂的「社群」，並對開源活動有初步了解。點選課表可檢視詳細的社群資訊。</p>
           </div>
@@ -62,7 +62,7 @@
         </div>
         <div class="img-content-container">
           <div class="content">
-            <h2 class="course-title">Hackathon</h2>
+            <h2 class="with-underline">Hackathon</h2>
             <p>黑客松（Hackathon）是「黑客」（Hack；原指早期為電腦系統找尋不完美的地方，或是探索不同的解法，來改善電腦系統）與「馬拉松」（Marathon）的組合字，顧名思義，也就像是程式設計、工程界的馬拉松：由有興趣的一群人在有限的時間內，發揮自己的專長做出一個有特色的專案。</p>
             <p>雖然夏令營改為線上，但我們也準備了共同編輯的工具，讓大家即使宅在家，也能獲得完成專案的成就感!</p>
           </div>
@@ -72,7 +72,7 @@
         </div>
         <div class="img-content-container">
           <div class="content">
-            <h2 class="course-title">主線課程</h2>
+            <h2 class="with-underline">主線課程</h2>
             <p>今年由於疫情關係，課程皆改以線上方式進行。</p>
             <p>營隊將採取小班制教學的模式，由兩位隊輔帶領六人小組；在課程中，隊輔會分段播放講師的預錄影片，並穿插多個實作，在確保學員都完成後，我們才會進行下一階段。</p>
             <p>由於往年舉辦夏令營時，每個小組的進度大多不一致，使得講師在教課時容易分身乏術，因此課程被設計為：分段播放預錄影片，由隊輔協助學員理解課程內容，講師依情況即時指導學員！</p>
@@ -83,7 +83,7 @@
         </div>
         <div class="img-content-container">
           <div class="content">
-            <h2 class="course-title">故事劇情</h2>
+            <h2 class="with-underline">故事劇情</h2>
             <p>我們會將故事劇情帶入課程中，讓學員在學習時更有樂趣！</p>
             <p>延續 2019 年的故事，在解決了 SITCON 艦艇號的問題後，在宇宙中的隊長們終於意識到我們的地球在小石被替除的前隊員拿走後，就已經失去開源力了。</p>
             <p>宇宙中的萬物都需要仰賴開源力來維持生命，而地球的開源力被取走了，也不再產生新生命了。</p>
@@ -107,7 +107,10 @@
       />
       <div class="container">
         <h1>過往紀錄與回饋</h1>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem</p>
+        <p>
+          SITCON 夏令營在為學員帶來扎實內容的同時，也希望整個學習的過程有趣且精彩
+          <br />以下為過往活動的影音紀錄，今年雖改為線上，但我們想帶給大家的內容絕不縮水。
+        </p>
       </div>
       <div class="image-wall">
         <splide :options="{...imageWallOptions,interval: 5000,focus: 'center'}">
@@ -115,7 +118,7 @@
             <img :src="item" />
           </splide-slide>
         </splide>
-        <splide :options="{...imageWallOptions,interval: 4600}" style="margin-top: 16px">
+        <splide :options="{...imageWallOptions,interval: 4600}" style="margin-top: 48px">
           <splide-slide v-for="item of imageWall.row2" :key="item">
             <img :src="item" />
           </splide-slide>
@@ -126,47 +129,62 @@
         <a href="https://www.flickr.com/photos/sitcon/albums" target="_blank">查看更多照片</a>
       </div>
     </div>
+    <splide :options="{...reportOptions}" style="margin: 32px 0" id="report-splide">
+      <splide-slide>
+        <div class="report">
+          <img class="avatar" src="/img/avatar.png" />
+          <div class="title">SITCON Camp 2017 學員</div>
+          <div class="name">William Mou</div>
+          <div
+            class="content"
+          >學生計算機年會（SITCON）簡單來說就是每年為喜歡資訊的學生舉辦的年會，會要請需多資訊界重量級講師來進行演講，而 SITCON 夏令營則是為學生舉辦的資訊營隊活動....</div>
+          <div class="readmore">
+            <a>閱讀全文</a>
+          </div>
+        </div>
+      </splide-slide>
+    </splide>
     <div class="container">
-      <h1>學員心得</h1>
-      <p>[[還沒放]]</p>
-
       <h1>活動資訊</h1>
-      <br />日期
-      <h1>08/11（三）~ 08/15（日）</h1>每天 10:00 ~ 20:00，逢用餐時段休息一小時
-      <br />
-      <br />地點
-      <h1>線上平台</h1>相關資訊敬請期待
-      <section id="報名資訊" style="padding-top: 128px;margin-top: -96px">
+      <div class="event-info">
+        <section>
+          <p>日期</p>
+          <h1>08/11（三）~ 08/17（二）</h1>
+          <p>每天 08:40 ~ 18:00，逢用餐時段休息 90 分鐘</p>
+        </section>
+        <section>
+          <p>地點</p>
+          <h1>線上平台</h1>
+          <p>相關資訊請見報名說明</p>
+        </section>
+      </div>
+      <section id="報名資訊" style="padding-top: 128px;margin-top: -80px">
         <h1>報名資訊</h1>
-        <div class="img-content-container non-reverse">
-          <div class="content">
+        <div class="signup-info">
+          <div class="time">
             報名時間
             <h2>即日起 ~ 2021/07/10</h2>
           </div>
-          <div class="img">
-            <a
-              class="signup-btn"
-              href="https://sitcon.kktix.cc/events/sitcon-camp2021"
-              target="_blank"
-            >前往報名</a>
+          <div class="sign-up">
+            <div class="signup-btn" @click="showSignupInfo=true">前往報名 ➡</div>
+          </div>
+          <div class="price-container">
+            <div class="price-item">
+              <div class="title">個人報名</div>
+              <div class="price">4500 NTD/人</div>
+            </div>
+            <div class="price-item">
+              <div class="title">團體報名</div>
+              <div class="price">4200 NTD/人</div>
+            </div>
           </div>
         </div>
-        <h1 style="padding-top: 64px">活動費用</h1>
-        <div class="price-container">
-          <div class="price-item">
-            個人報名
-            <br />4500 NTD/人
-          </div>
-          <div class="price-item">
-            團體報名
-            <br />4200 NTD/人
-          </div>
-        </div>
+        <div class="img-content-container non-reverse"></div>
         <div class="price-note">
-          <p>三人同時報名，視為團體報名，每團以三人為限，請詳閱 活動報名簡章。</p>
+          <p>三人同時報名，視為團體報名，每團以三人為限。</p>
           <p>本次夏令營預計招收學員 60 名，我們會針對報名資料做簡易審查，非先報先贏。</p>
-          <p>正取學員名單將於 2019 / 06 / 18 公佈，正取學員需完成報名費繳交，始完成報名程序。</p>
-          <p>另設有補助名額，請詳閱 補助辦法。</p>
+          <p>正取學員名單將於 07/23 公佈，屆時請關注 SITCON 相關社群媒體。</p>
+          <p>正取學員需完成報名費繳交，始完成報名程序；另設有補助名額，請詳閱 補助辦法。</p>
           <p>關於退費事宜，請見 退費說明文件。</p>
         </div>
       </section>
@@ -189,19 +207,40 @@
         <p>SITCON 歡迎不同身分、來自不同背景的與會者，也非常鼓勵女性、性少數與多元背景的參與者。為了讓大家都能愉快的參加 SITCON，我們要求所有參與者閱讀社群的的行為準則（Code of Conduct），共同創造一個友善的環境。</p>
       </section>
     </div>
+    <Dialog v-model="showSignupInfo">
+      <signup-info />
+    </Dialog>
   </div>
 </template>
 
 <script>
 export default {
   data: () => ({
+    reportOptions: {
+      type: "loop",
+      perPage: 5,
+      perMove: 1,
+      gap: "24px",
+      pagination: false,
+      focus: "center",
+      breakpoints: {
+        1024: {
+          perPage: 1,
+          fixedWidth: 300
+        },
+        1366: {
+          perPage: 3,
+          fixedWidth: 300
+        }
+      }
+    },
     imageWallOptions: {
       type: "loop",
-      perPage: 4,
+      perPage: 6,
       perMove: 1,
       gap: "10px",
-      height: 300,
-      heightRatio: 0.4,
+      height: 200,
+      heightRatio: 0.2,
       autoplay: true,
       cover: true,
       arrows: false,
@@ -209,7 +248,7 @@ export default {
       breakpoints: {
         768: {
           perPage: 2,
-          height: 100
+          height: 150
         }
       }
     },
@@ -234,6 +273,7 @@ export default {
         "/2021/img/48711684617_e8d23396b3_k.jpg"
       ]
     },
+    showSignupInfo: false,
     player: null
   }),
   methods: {
@@ -341,7 +381,7 @@ export default {
     width: 177.78vh
 
 .bottom-btns
-  padding: 48px 0
+  padding: 64px 0
   text-align: center
   a
     background-color: rgba(255,255,255,.2)
@@ -355,15 +395,9 @@ export default {
       background-color: rgba(255,255,255,.3)
     &:active
       background-color: rgba(255,255,255,.4)
-.course-title
-  border-bottom: 1px solid #fff
-  padding-bottom: 8px
-  margin-bottom: 16px
-  margin-top: 0
 .more-info
-  padding: 60px 0
   background-color: #335A46
-  padding: 32px 32px
+  padding: 32px
   border-radius: 16px
   margin-bottom: 64px
   section + section
@@ -375,43 +409,140 @@ export default {
     align-items: flex-end
     h1
       flex: 1
-.price-container
-  margin: 32px 0
-  display: flex
-  width: 100%
-  gap: 12px
-  .price-item
-    width: 100%
-    padding: 32px 8px
-    border-radius: 16px
-    background-color: #ACACAC
-    text-align: center
-    font-size: 24px
 .signup-btn
-  font-size: 36px
-  background-color: #73A985
+  font-size: 24px
+  background-color: #fff
+  color: #192C35
   padding: 16px 32px
-  border-radius: 16px
+  border-radius: 100em
   text-decoration: none
+  display: inline-block
+  cursor: pointer
   &:hover
     box-shadow: inset 0 0 10em rgba(0, 0, 0, .1)
   &:active
     box-shadow: inset 0 0 10em rgba(0, 0, 0, .2)
 
-@media screen and (max-width: 768px)
-  .signup-btn
+.event-info
+  display: flex
+  section
     margin-top: 16px
+    width: 50%
+    p
+      margin: 8px 0
+@media screen and (max-width: 768px)
+  .event-info
     display: block
+    section
+      width: 100%
+.signup-info
+  display: grid
+  grid-template-areas: "time price" "sign-up price"
+  grid-template-columns: 1fr 1fr
+  grid-template-rows: 1fr 1fr
+  align-items: center
+  .time
+    grid-area: time
+  .sign-up
+    grid-area: sign-up
+    align-self: flex-end
+  .price-container
+    grid-area: price
+    width: 100%
+    .price-item
+      width: 100%
+      max-width: 270px
+      padding: 16px 32px
+      border-radius: 16px
+      background-color: #CF992D
+      font-size: 24px
+      & + .price-item
+        margin-top: 24px
+      .title
+        border-bottom: 1px solid #fff
+        padding-bottom: 8px
+        margin-bottom: 8px
+        font-size: 18px
+
+@media screen and (max-width: 768px)
+  .signup-info
+    grid-template-areas: "time" "price" "sign-up"
+    grid-template-columns: initial
+    grid-template-rows: initial
+    .time, .price-container, .sign-up
+      margin-top: 16px
 .price-note
   background-color: #285977
   padding: 16px 32px
   border-radius: 16px
   margin-bottom: 64px
-@keyframes twinkling
-  0%,100%
-    opacity: 1
-  50%
-    opacity: .2
 .splide__slide
   border-radius: 4px
+  user-select: initial
+
+#report-splide
+  .splide__slide
+    user-select: initial
+  .splide__track
+    &:before
+      left: 0
+      background: linear-gradient(to right, rgba(25, 44, 53, .75), #0000)
+    &:after
+      right: 0
+      background: linear-gradient(to left, rgba(25, 44, 53, .75), #0000)
+    &:before, &:after
+      position: absolute
+      top: 0
+      content: ''
+      height: 100%
+      width: 200px
+      z-index: 2
+  .report
+    background-color: #fff
+    border-radius: 16px
+    padding: 16px
+    color: #000
+    text-align: center
+    margin-top: 64px
+    padding-top: 0
+    .avatar
+      display: inline-block
+      width: 128px
+      height: 128px
+      object-fit: cover
+      border-radius: 100em
+      margin-top: -64px
+    .title
+      font-weight: bold
+    .content
+      text-align: left
+      margin-top: 16px
+      &:hover
+        opacity: .9
+    .readmore
+      margin-top: 16px
+      text-align: right
+      a
+        background-color: #000
+        padding: 8px 16px
+        border-radius: 100em
+        color: #fff
+        &:hover
+          opacity: .8
+        &:active
+          opacity: 1
+
+@media screen and (max-width: 768px)
+  #report-splide .splide__track
+    &:before, &:after
+      width: 50px
+/*
+
+        <div class="report">
+          <img class="avatar" src="/img/avatar.png" />
+          <div class="title">SITCON Camp 2017 學員</div>
+          <div class="name">William Mou</div>
+          <div class="content">學生計算機年會（SITCON）簡單來說就是每年為喜歡資訊的學生舉辦的年會，會要請需多資訊界重量級講師來進行演講，而 SITCON 夏令營則是為學生舉辦的資訊營隊活動....</div>
+          <div class="readmore">閱讀全文</div>
+    */
 </style>

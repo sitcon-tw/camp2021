@@ -15,11 +15,11 @@ body,html
   color: #FFF
   margin: 0
   overflow-x: hidden
-  line-height: 1.4em
+  line-height: 1.5em
 a
   color: #fff
 h1,h2,h3,h4,h5,h6
-  line-height: 1.25em
+  line-height: 1.5em
   margin: 0
 .container
   max-width: 1000px
@@ -37,9 +37,14 @@ h1.page-title
   &.subtitle
     font-size: 32px
 
+.with-underline
+  border-bottom: 1px solid #fff
+  padding-bottom: 8px
+  margin-bottom: 16px
+  margin-top: 0
 .img-content-container
   display: flex
-  margin: 16px 0
+  margin: 64px 0
   &:nth-child(odd)
     .img
       padding-left: 16px
@@ -68,4 +73,10 @@ h1.page-title
       width: 100%
     .img
       padding: 0 !important
+
+@keyframes twinkling
+  0%,100%
+    opacity: 1
+  50%
+    opacity: .2
 </style>
