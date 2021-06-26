@@ -42,6 +42,7 @@
 <style lang="sass" scoped>
 .container
   position: relative
+  margin-top: 200px
   .spacecat
     margin-top: 200px
     margin-bottom: -6px
