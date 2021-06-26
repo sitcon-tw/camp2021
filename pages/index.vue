@@ -98,13 +98,14 @@
     <div class="review" id="過往紀錄與回饋">
       <youtube
         class="video-background"
-        @ready="ready"
+        id="player"
+        @ready="videoReady"
+        @ended="videoEnded"
         player-width="100%"
         player-height="100%"
         mute
         video-id="oAtiOrpj6DQ"
       />
-
       <div class="container">
         <h1>過往紀錄與回饋</h1>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem</p>
@@ -209,7 +210,7 @@ export default {
       breakpoints: {
         768: {
           perPage: 2,
-          height: 200
+          height: 100
         }
       }
     },
@@ -234,7 +235,15 @@ export default {
         "/2021/img/48711684617_e8d23396b3_k.jpg"
       ]
     }
-  })
+  }),
+  methods: {
+    videoReady(event) {
+      event.target.playVideo();
+    },
+    videoEnded() {
+      this.$refs.player.player.seekTo(0);
+    }
+  }
 };
 </script>
 <style lang="sass">
@@ -309,14 +318,26 @@ export default {
     left: 0
     width: 100%
     height: 100%
-    object-fit: cover
     pointer-events: none
   .video-background
     opacity: .4
+    overflow: hidden
+  .video-background iframe
+    width: 100%
+    height: 100%
   .container
     position: relative
     margin-bottom: 32px
     padding-top: 120px
+@media (min-aspect-ratio: 16/9)
+  .review .video-background iframe
+    height: 300%
+    top: -100%
+@media (max-aspect-ratio: 16/9)
+  .review .video-background iframe
+    width: 330%
+    left: -100%
+
 .bottom-btns
   padding: 48px 0
   text-align: center
