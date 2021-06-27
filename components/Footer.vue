@@ -16,9 +16,9 @@
       <div class="item">
         <div class="title">聯絡我們</div>
         <p>
-          合作聯繫：contact@sitcon.org
+          合作聯繫：<a href="mailto:contact@sitcon.org" target="_blank">contact@sitcon.org</a>
           <span style="width: .5em;display: inline-block" />
-          報名事宜：ask@sitcon.org
+          報名事宜：<a href="mailto:ask@sitcon.org" target="_blank">ask@sitcon.org</a>
         </p>
       </div>
       <div class="item">
