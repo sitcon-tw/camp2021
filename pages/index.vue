@@ -203,7 +203,7 @@
       <section>
         <div class="title-and-link">
           <h1>關於 SITCON</h1>
-          <a href="https://sitcon.org/" target="_blank">深入瞭解</a>
+          <router-link to="/about">深入瞭解</router-link>
         </div>
         <p>學生計算機年會（SITCON）是由學生自發舉辦，投身學生資訊教育與推廣開源精神的社群， 也是一個由學生主辦、學生擔任講者、以學生為主軸的資訊研討會，給學生們一個發表交流技術的舞台。 除了技術研討之外，還有許多從學生角度出發的經驗分享、專題研究成果或探討學生相關議題等等議程。</p>
         <p>我們也曾舉辦黑客松、工作坊，和各地學校社團舉辦聯合講座等等。</p>
