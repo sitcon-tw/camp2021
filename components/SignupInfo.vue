@@ -5,8 +5,8 @@
     <h2>報名資格</h2>
     <p>
       具有學生身分
-      <br />（持有任一學生證蓋有 107 學年度上學期註冊章）
-      <br />或出生日期為 2000 年 9 月 1 日（含）以後。
+      <br />（持有任一學生證蓋有 109 學年度上學期註冊章）
+      <br />或出生日期為 2002 年 9 月 1 日（含）以後。
     </p>
 
     <h2>活動需求</h2>
@@ -23,9 +23,21 @@
       <section>
         <h3 class="with-underline">使用平台</h3>
         <ul>
-          <li>Google Meet (官方建議系統需求)</li>
+          <li>
+            Google Meet (
+            <a
+              href="https://support.google.com/meethardware/answer/4541234?hl=zh-Hant"
+              target="_blank"
+            >官方建議系統需求</a>)
+          </li>
           <li>Teamflow</li>
-          <li>Discord (官方建議系統需求)</li>
+          <li>
+            Discord (
+            <a
+              href="https://support.discord.com/hc/zh-tw/articles/213491697-Discord%E6%9C%89%E5%93%AA%E4%BA%9B%E7%B3%BB%E7%B5%B1%E7%92%B0%E5%A2%83%E9%9C%80%E6%B1%82-"
+              target="_blank"
+            >官方建議系統需求</a>)
+          </li>
         </ul>
       </section>
     </div>

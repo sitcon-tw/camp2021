@@ -178,7 +178,6 @@
             </div>
           </div>
         </div>
-        <div class="img-content-container non-reverse"></div>
         <div class="price-note">
           <p>三人同時報名，視為團體報名，每團以三人為限。</p>
           <p>本次夏令營預計招收學員 60 名，我們會針對報名資料做簡易審查，非先報先贏。</p>
@@ -482,6 +481,7 @@ export default {
   grid-template-columns: 1fr 1fr
   grid-template-rows: 1fr 1fr
   align-items: center
+  margin-bottom: 64px
   .time
     grid-area: time
   .sign-up
@@ -512,6 +512,23 @@ export default {
     grid-template-rows: initial
     .time, .price-container, .sign-up
       margin-top: 16px
+
+    .price-container
+      display: flex
+      gap: 12px
+      .price-item
+        width: 50%
+        padding: 16px
+        & + .price-item
+          margin-top: 0
+        .title
+          font-size: 16px
+        .price
+          font-size: 22px
+    .sign-up
+      margin-top: 64px
+      align-self: center
+      justify-self: center
 .price-note
   background-color: #285977
   padding: 16px 32px
