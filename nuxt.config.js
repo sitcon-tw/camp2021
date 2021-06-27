@@ -49,10 +49,14 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-34467841-7'
+    }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-NPVBCDZ' }],
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
