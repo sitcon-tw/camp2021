@@ -31,6 +31,7 @@
             v-for="year of years"
             :key="year"
             :title="year"
+            target="_blank"
           >{{year}}</a>
         </div>
       </div>
