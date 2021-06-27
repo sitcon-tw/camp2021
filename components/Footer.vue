@@ -72,6 +72,11 @@ export default {
         title: "YouTube",
         icon: "/2021/icon/youtube.svg",
         link: "https://sitcon.org/youtube"
+      },
+      {
+        title: "Plurk",
+        icon: "/2021/icon/plurk.svg",
+        link: "https://sitcon.org/plurk"
       }
     ]
   })
