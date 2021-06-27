@@ -16,9 +16,11 @@
       <div class="item">
         <div class="title">聯絡我們</div>
         <p>
-          合作聯繫：<a href="mailto:contact@sitcon.org" target="_blank">contact@sitcon.org</a>
+          合作聯繫：
+          <a href="mailto:contact@sitcon.org" target="_blank">contact@sitcon.org</a>
           <span style="width: .5em;display: inline-block" />
-          報名事宜：<a href="mailto:ask@sitcon.camp" target="_blank">ask@sitcon.camp</a>
+          報名事宜：
+          <a href="mailto:ask@sitcon.camp" target="_blank">ask@sitcon.camp</a>
         </p>
       </div>
       <div class="item">
@@ -50,6 +52,11 @@ export default {
         title: "Flickr",
         icon: "/2021/icon/flickr.svg",
         link: "https://sitcon.org/flickr"
+      },
+      {
+        title: "Instagram",
+        icon: "/2021/icon/instagram.svg",
+        link: "https://sitcon.org/instagram"
       },
       {
         title: "Telegram",
