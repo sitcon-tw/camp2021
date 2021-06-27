@@ -8,7 +8,8 @@
     <p>學生計算機年會（SITCON）是由學生自發舉辦，投身學生資訊教育與推廣開源精神的社群，也是一個由學生主辦、學生擔任講者、以學生為主軸的資訊研討會，給學生們一個發表交流技術的舞台。</p>
     <p>除了技術研討之外，還有許多從學生角度出發的經驗分享、專題研究成果或探討學生相關議題等等議程。 我們也曾舉辦黑客松、工作坊，和各地學校社團舉辦聯合講座等等。</p>
     <p>
-      對我們所做的事情感興趣？ 歡迎加入 郵件論壇 或
+      對我們所做的事情感興趣？ 歡迎加入
+      <a href="https://groups.google.com/g/sitcon-general" target="_blank">郵件論壇</a> 或
       <a href="https://sitcon.org/telegram" target="_blank">Telegram 群組</a> 一起來規劃討論。
     </p>
     <h2 class="text-center" style="margin: 40px 0">我們舉辦過的活動</h2>
@@ -44,7 +45,7 @@
         </p>
       </div>
       <div class="img">
-        <img src="/2021/img/sitcon.jpg" />
+        <img src="/2021/img/51260350196_1e24756478_5k.jpg" />
       </div>
     </div>
     <div class="img-content-container">

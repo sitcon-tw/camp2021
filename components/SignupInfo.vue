@@ -24,19 +24,21 @@
         <h3 class="with-underline">使用平台</h3>
         <ul>
           <li>
-            Google Meet (
+            <a href="https://meet.google.com/" target="_blank">Google Meet</a>
             <a
               href="https://support.google.com/meethardware/answer/4541234?hl=zh-Hant"
               target="_blank"
-            >官方建議系統需求</a>)
+            >(官方建議系統需求)</a>
           </li>
-          <li>Teamflow</li>
           <li>
-            Discord (
+            <a href="https://www.teamflowhq.com/" target="_blank">Teamflow</a>
+          </li>
+          <li>
+            <a href="https://discord.com/" target="_blank">Discord</a>
             <a
-              href="https://support.discord.com/hc/zh-tw/articles/213491697-Discord%E6%9C%89%E5%93%AA%E4%BA%9B%E7%B3%BB%E7%B5%B1%E7%92%B0%E5%A2%83%E9%9C%80%E6%B1%82-"
+              href="https://support.discord.com/hc/zh-tw/articles/213491697"
               target="_blank"
-            >官方建議系統需求</a>)
+            >(官方建議系統需求)</a>
           </li>
         </ul>
       </section>
