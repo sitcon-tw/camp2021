@@ -154,7 +154,7 @@
         <section>
           <p>地點</p>
           <h1>線上平台</h1>
-          <p>相關資訊請見報名說明</p>
+          <p>詳細資訊請點選下方前往報名</p>
         </section>
       </div>
       <section id="報名資訊" style="padding-top: 128px;margin-top: -80px">
