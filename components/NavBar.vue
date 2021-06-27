@@ -81,6 +81,7 @@ nav
 @media screen and (max-width: 768px)
   nav
     display: grid
+    top: 40px
     grid-template-areas: 'logo menu' 'links links'
     .menu
       display: block
