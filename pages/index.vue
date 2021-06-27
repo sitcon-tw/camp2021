@@ -50,7 +50,7 @@
             <p>雖然夏令營改為線上，但我們也準備了共同編輯的工具，讓大家即使宅在家，也能獲得完成專案的成就感!</p>
           </div>
           <div class="img">
-            <img src="/2021/img/48711667217_a251f33169_k.jpg" />
+            <img src="/2021/img/48711521701_10787293f0_c.jpg" />
           </div>
         </div>
         <div class="img-content-container">
@@ -90,7 +90,7 @@
             <p>兩千年過後的現在，地球上的生命體不是壽命已到離開了這個世界，就是已經離開地球，到宇宙當中生存了。 ———現在，我們將要重新返航到地球去，將地球開源力的能量來源『小石』帶回到地球中，讓地球回到 2000 年前的美麗，不再如此的了無生息。</p>
           </div>
           <div class="img">
-            <img src="/2021/img/sitcon.jpg" />
+            <img src="/2021/img/48711678192_f77e8b5d4b_c.jpg" />
           </div>
         </div>
       </section>
@@ -262,7 +262,7 @@ export default {
         link: "https://jayin92.github.io/posts/2019-sitcon-camp/"
       },
       {
-        name: "Vincent",
+        name: "Vincent55",
         avatar: "https://i.imgur.com/I7iV7Fo.jpg",
         year: 2019,
         content:
