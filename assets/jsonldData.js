@@ -60,5 +60,5 @@ export default {
             "https://twitter.com/sitcontw"
         ]
     },
-    "eventStatus": "EventRescheduled"
+    "eventStatus": "EventScheduled"
 }
