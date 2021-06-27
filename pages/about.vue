@@ -12,7 +12,7 @@
       <a href="https://groups.google.com/g/sitcon-general" target="_blank">郵件論壇</a> 或
       <a href="https://sitcon.org/telegram" target="_blank">Telegram 群組</a> 一起來規劃討論。
     </p>
-    <h2 class="text-center" style="margin: 40px 0">我們舉辦過的活動</h2>
+    <h2 class="text-center" style="margin-top: 60px">我們舉辦過的活動</h2>
     <div class="img-content-container">
       <div class="content">
         <h2 class="with-underline">SITCON 年會</h2>
