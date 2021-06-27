@@ -15,7 +15,11 @@
       </div>
       <div class="item">
         <div class="title">聯絡我們</div>
-        <p>contact@sitcon.org</p>
+        <p>
+          合作聯繫：contact@sitcon.org
+          <span style="width: .5em;display: inline-block" />
+          報名事宜：ask@sitcon.org
+        </p>
       </div>
       <div class="item">
         <div class="title">歷年網站</div>
