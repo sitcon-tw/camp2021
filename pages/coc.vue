@@ -30,8 +30,8 @@
       <p>為了確保每位參與者的安全，我們將恪守以上規則。違反行為準則的參與者，我們將採取必要且合理的手段予以介入，包含但不限於將參與者請離現場、自相關名冊除名或列為不受歡迎對象，或在必要時移送警察機關法辦。若您或他人遇到了以上情況、或是有任何其他顧慮，都請立即尋求 SITCON 工作人員的協助。</p>
 
       <p>我們誠摯的邀請來到 SITCON 的朋友一同履行以上承諾，將 SITCON 打造為更友善、更溫暖的所在；讓每一位參與者，都能在社群的交流中共同成長、在人與人的互動中找到自信——而這正是我們所珍惜的、屬於學生社群的真正精神。</p>
-      <img class="spacecat" src="/2021/img/spacecat.svg" />
       <img class="star3" v-rellax="{ speed: 0.5 }" src="/2021/img/star3.svg" />
+      <img class="spacecat" src="/2021/img/spacecat.svg" />
     </div>
     <div class="space-background">
       <img class="person" src="/2021/img/Group 108.svg" />
@@ -46,9 +46,10 @@
   .spacecat
     margin-top: 200px
     margin-bottom: -6px
+
   .star3
     position: absolute
-    left: 0
+    left: 50px
     bottom: 0
     animation: twinkling 2s 0s infinite
 .space-background
