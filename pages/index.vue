@@ -371,6 +371,7 @@ export default {
 @media screen and (max-width: 768px)
   .hero-header
     .container
+      height: 60vh
       .stars1
         width: 100%
         left: 0
@@ -399,6 +400,10 @@ export default {
   margin-top: 100px
   margin-bottom: 60px
   position: relative
+
+@media screen and (max-width: 768px)
+  .slogan
+    margin-top: 40px
 .review
   background-color: #000
   background-size: cover
