@@ -184,9 +184,18 @@
           <p>正取學員名單將於 07/23 公佈，屆時請關注 SITCON 相關社群媒體。</p>
           <p>
             正取學員需完成報名費繳交，始完成報名程序；另設有補助名額，請詳閱
-            <a href="/2021/docs/SITCON 夏令營 2021 報名費用補助辦法.pdf" target="_blank">補助辦法</a>。
+            <a
+              href="https://drive.google.com/file/d/1kODllu2VNdeUi_covc_PeW8WnffCEhTH/view"
+              target="_blank"
+            >補助辦法</a>。
           </p>
-          <p>關於退費事宜，請見 退費說明文件。</p>
+          <p>
+            關於退費事宜，請見
+            <a
+              href="https://drive.google.com/file/d/1xMgpsaATsIlSWfv31VcV0dCuy8if5tqE/view"
+              target="_blank"
+            >退費說明文件</a>。
+          </p>
         </div>
       </section>
     </div>
