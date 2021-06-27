@@ -31,11 +31,11 @@
 
       <p>我們誠摯的邀請來到 SITCON 的朋友一同履行以上承諾，將 SITCON 打造為更友善、更溫暖的所在；讓每一位參與者，都能在社群的交流中共同成長、在人與人的互動中找到自信——而這正是我們所珍惜的、屬於學生社群的真正精神。</p>
       <img class="spacecat" src="/2021/img/spacecat.svg" />
-      <img class="star3" src="/2021/img/star3.svg" />
+      <img class="star3" v-rellax="{ speed: 0.5 }" src="/2021/img/star3.svg" />
     </div>
     <div class="space-background">
       <img class="person" src="/2021/img/Group 108.svg" />
-      <img class="star4" src="/2021/img/star4.svg" />
+      <img class="star4" v-rellax="{ speed: 1 }" src="/2021/img/star4.svg" />
     </div>
   </div>
 </template>
