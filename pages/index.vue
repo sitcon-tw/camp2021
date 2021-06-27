@@ -34,6 +34,27 @@
         <time-table />
         <div class="img-content-container">
           <div class="content">
+            <h2 class="with-underline">主線課程</h2>
+            <p>今年由於疫情關係，課程皆改以線上方式進行。</p>
+            <p>營隊將採取小班制教學的模式，由兩位隊輔帶領六人小組；在課程中，隊輔會分段播放講師的預錄影片，並穿插多個實作，在確保學員都完成後，我們才會進行下一階段。</p>
+            <p>由於往年舉辦夏令營時，每個小組的進度大多不一致，使得講師在教課時容易分身乏術，因此課程被設計為：分段播放預錄影片，由隊輔協助學員理解課程內容，講師依情況即時指導學員！</p>
+          </div>
+          <div class="img">
+            <img src="/2021/img/48711667217_a251f33169_k.jpg" />
+          </div>
+        </div>
+        <div class="img-content-container">
+          <div class="content">
+            <h2 class="with-underline">Hackathon</h2>
+            <p>黑客松（Hackathon）是「黑客」（Hack；原指早期為電腦系統找尋不完美的地方，或是探索不同的解法，來改善電腦系統）與「馬拉松」（Marathon）的組合字，顧名思義，也就像是程式設計、工程界的馬拉松：由有興趣的一群人在有限的時間內，發揮自己的專長做出一個有特色的專案。</p>
+            <p>雖然夏令營改為線上，但我們也準備了共同編輯的工具，讓大家即使宅在家，也能獲得完成專案的成就感!</p>
+          </div>
+          <div class="img">
+            <img src="/2021/img/48711667217_a251f33169_k.jpg" />
+          </div>
+        </div>
+        <div class="img-content-container">
+          <div class="content">
             <h2 class="with-underline">廣度課程</h2>
             <p>為避免單一的教學方式限制了學員對資訊領域的視野，夏令營在設計時，特別安排了廣度課程。讓學員在學習基礎課程之餘，也能學到資訊領域的其他層面，增加自身資訊技能的廣度。其中，我們邀請到了許多在資訊圈打滾多年的權威人士分享自身經驗，期許能為迷茫中的學員，點亮未來的一盞明燈，找到屬於自己的資訊路。</p>
           </div>
@@ -58,27 +79,6 @@
           </div>
           <div class="img">
             <img src="/2021/img/48711417321_9811d901a1_k.jpg" />
-          </div>
-        </div>
-        <div class="img-content-container">
-          <div class="content">
-            <h2 class="with-underline">Hackathon</h2>
-            <p>黑客松（Hackathon）是「黑客」（Hack；原指早期為電腦系統找尋不完美的地方，或是探索不同的解法，來改善電腦系統）與「馬拉松」（Marathon）的組合字，顧名思義，也就像是程式設計、工程界的馬拉松：由有興趣的一群人在有限的時間內，發揮自己的專長做出一個有特色的專案。</p>
-            <p>雖然夏令營改為線上，但我們也準備了共同編輯的工具，讓大家即使宅在家，也能獲得完成專案的成就感!</p>
-          </div>
-          <div class="img">
-            <img src="/2021/img/48711667217_a251f33169_k.jpg" />
-          </div>
-        </div>
-        <div class="img-content-container">
-          <div class="content">
-            <h2 class="with-underline">主線課程</h2>
-            <p>今年由於疫情關係，課程皆改以線上方式進行。</p>
-            <p>營隊將採取小班制教學的模式，由兩位隊輔帶領六人小組；在課程中，隊輔會分段播放講師的預錄影片，並穿插多個實作，在確保學員都完成後，我們才會進行下一階段。</p>
-            <p>由於往年舉辦夏令營時，每個小組的進度大多不一致，使得講師在教課時容易分身乏術，因此課程被設計為：分段播放預錄影片，由隊輔協助學員理解課程內容，講師依情況即時指導學員！</p>
-          </div>
-          <div class="img">
-            <img src="/2021/img/48711667217_a251f33169_k.jpg" />
           </div>
         </div>
         <div class="img-content-container">
