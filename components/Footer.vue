@@ -44,27 +44,27 @@ export default {
       {
         title: "Facebook",
         icon: "/2021/icon/facebook.svg",
-        link: "https://www.facebook.com/SITCONtw"
+        link: "https://sitcon.org/facebook"
       },
       {
         title: "Flickr",
         icon: "/2021/icon/flickr.svg",
-        link: "https://www.flickr.com/photos/sitcon/albums"
+        link: "https://sitcon.org/flickr"
       },
       {
         title: "Telegram",
         icon: "/2021/icon/telegram.svg",
-        link: "https://t.me/SITCONtw"
+        link: "https://sitcon.org/telegram"
       },
       {
         title: "Twitter",
         icon: "/2021/icon/twitter.svg",
-        link: "https://twitter.com/sitcontw"
+        link: "https://sitcon.org/twitter"
       },
       {
         title: "YouTube",
         icon: "/2021/icon/youtube.svg",
-        link: "https://www.youtube.com/user/SITCONArchive"
+        link: "https://sitcon.org/youtube"
       }
     ]
   })
