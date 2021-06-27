@@ -224,6 +224,7 @@
 </template>
 
 <script>
+import jsonldData from "@/assets/jsonldData.js";
 export default {
   data: () => ({
     reportOptions: {
@@ -336,6 +337,9 @@ export default {
     videoEnded() {
       this.player.seekTo(0);
     }
+  },
+  jsonld() {
+    return jsonldData;
   }
 };
 </script>
