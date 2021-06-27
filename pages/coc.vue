@@ -46,7 +46,7 @@
   .spacecat
     margin-top: 200px
     margin-bottom: -6px
-
+    position: relative
   .star3
     position: absolute
     left: 50px
