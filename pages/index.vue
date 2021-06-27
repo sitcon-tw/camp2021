@@ -250,8 +250,8 @@ export default {
         avatar: "https://i.imgur.com/rnV72WM.jpg",
         year: 2017,
         content:
-          "學生計算機年會（SITCON）簡單來說就是每年為喜歡資訊的學生舉辦的年會，會要請需多資訊界重量級講師來進行演講，而 SITCON 夏令營則是為學生舉辦的資訊營隊活動....",
-        link: "https://anjoincamp.blogspot.com/2019/08/sitcon-camp.html"
+          "常常，我們總覺得拼命的看書與學習，便可以使自己快速成長。\n然而，有所遺漏的是，當我們獨自精進時，常常會忽略了其他更重要的技能…",
+        link: "/report/WilliamMou"
       },
       {
         name: "李杰穎",
