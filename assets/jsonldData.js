@@ -8,7 +8,8 @@ export default {
     "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
     "location": {
         "@type": "VirtualLocation",
-        "name": "Teamflow / Discord / Google Meet"
+        "name": "Teamflow / Discord / Google Meet",
+        "url": "https://sitcon.camp/2021/"
     },
     "offers": [
         {
