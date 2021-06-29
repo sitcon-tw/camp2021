@@ -109,4 +109,8 @@ export default {
       .name
         text-align: center
         font-size: 14px
+
+@media screen and (max-width: 768px)
+  .group .items 
+    gap: 12px
 </style>
