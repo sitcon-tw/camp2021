@@ -217,6 +217,14 @@
         <p>SITCON 歡迎不同身分、來自不同背景的與會者，也非常鼓勵女性、性少數與多元背景的參與者。為了讓大家都能愉快的參加 SITCON，我們要求所有參與者閱讀社群的的行為準則（Code of Conduct），共同創造一個友善的環境。</p>
       </section>
     </div>
+    <div class="special-thanks container">
+      <h1>特別感謝 / Special Thanks</h1>
+      <div class="items">
+        <div class="item">
+          <img src="/2021/img/cci_logo.svg" />
+        </div>
+      </div>
+    </div>
     <Dialog v-model="showSignupInfo">
       <signup-info />
     </Dialog>
@@ -470,6 +478,29 @@ export default {
     align-items: flex-end
     h1
       flex: 1
+.special-thanks
+  margin-bottom: 16px
+  h1
+    margin-bottom: 16px
+  .items
+    display: grid
+    grid-template-columns: repeat(4,1fr)
+    gap: 16px
+    .item
+      background-color: #fff
+      padding: 16px
+      border-radius: 16px
+      img
+        width: 100%
+        height: 100%
+        margin: 0 auto
+        padding: 16px
+        border-radius: 16px
+
+@media screen and (max-width: 768px)
+  .special-thanks
+    .items
+      grid-template-columns: repeat(3,1fr)
 .signup-btn
   font-size: 24px
   background-color: #fff
