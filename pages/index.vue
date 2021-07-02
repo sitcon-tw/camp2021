@@ -500,7 +500,7 @@ export default {
 @media screen and (max-width: 768px)
   .special-thanks
     .items
-      grid-template-columns: repeat(3,1fr)
+      grid-template-columns: repeat(2,1fr)
 .signup-btn
   font-size: 24px
   background-color: #fff
@@ -646,13 +646,4 @@ export default {
   #report-splide .splide__track
     &:before, &:after
       width: 50px
-/*
-
-        <div class="report">
-          <img class="avatar" src="/img/avatar.png" />
-          <div class="title">SITCON Camp 2017 學員</div>
-          <div class="name">William Mou</div>
-          <div class="content">學生計算機年會（SITCON）簡單來說就是每年為喜歡資訊的學生舉辦的年會，會要請需多資訊界重量級講師來進行演講，而 SITCON 夏令營則是為學生舉辦的資訊營隊活動....</div>
-          <div class="readmore">閱讀全文</div>
-    */
 </style>
