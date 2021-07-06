@@ -149,7 +149,7 @@ export default [{
 }, {
     group: "隊輔組",
     mail: "2162367e6dd93f5c602644317af3cfcd",
-    name: "Haha(CPY)"
+    name: "CPY"
 }, {
     group: "隊輔組",
     mail: "aa520a04ba552cf4868aa896491e3199",
