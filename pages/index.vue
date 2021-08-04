@@ -223,6 +223,12 @@
         <div class="item">
           <img src="/2021/img/cci_logo.svg" />
         </div>
+        <div class="item">
+          <img src="/2021/img/amd.svg" />
+        </div>
+        <div class="item">
+          <img src="/2021/img/hpe.svg" />
+        </div>
       </div>
     </div>
     <Dialog v-model="showSignupInfo">
