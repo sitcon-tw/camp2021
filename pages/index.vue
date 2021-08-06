@@ -14,29 +14,43 @@
       <h1 class="text-center">由資訊社群所打造，超高知識含量的夏令營</h1>
     </div>
     <div class="container">
-      <div class="img-content-container" style="position: relative;">
+      <div class="img-content-container" style="position: relative">
         <div class="content">
-          <p
-            style="margin-top:0;"
-          >有鑑於資訊領域逐漸成為科技時代的重要學門，社群與開源精神亦持續抬頭，SITCON 團隊認為將資訊教育向下扎根，為在資訊科學領域有興趣的學生提供一個親切而良好的機會入門，並播灑開源種子，是一件相當重要且值得去做的事情。</p>
+          <p style="margin-top: 0">
+            有鑑於資訊領域逐漸成為科技時代的重要學門，社群與開源精神亦持續抬頭，SITCON
+            團隊認為將資訊教育向下扎根，為在資訊科學領域有興趣的學生提供一個親切而良好的機會入門，並播灑開源種子，是一件相當重要且值得去做的事情。
+          </p>
 
-          <p>2014 年至今，SITCON 夏令營已將邁入第六屆，在此之前課程內容涵蓋開放原始碼、資訊安全、Maker、Python、後端的 Node.js、前端的資料爬蟲、視覺化、Telegram bot 等。另外更有社群闖關、視界咖啡館、黑客松等活動，讓學員充分吸收新知、動手實作、尋找自己的愛好及興趣，進而加入我們一起推動 Open Source。</p>
+          <p>
+            2014 年至今，SITCON 夏令營已將邁入第六屆，在此之前課程內容涵蓋開放原始碼、資訊安全、Maker、Python、後端的
+            Node.js、前端的資料爬蟲、視覺化、Telegram bot
+            等。另外更有社群闖關、視界咖啡館、黑客松等活動，讓學員充分吸收新知、動手實作、尋找自己的愛好及興趣，進而加入我們一起推動 Open
+            Source。
+          </p>
 
-          <p>2021 年度，SITCON 夏令營因應疫情改於線上舉辦，以「開源星球，源力崛起」為主軸，帶領各位一同進入開源宇宙。我們將傳承歷屆夏令營的概念，今年的線上夏令營將會把往年的豐富活動都移轉到線上舉行，也會有從基礎 Python 程式語言到做出自己的聊天機器人的實作課程。開源宇宙也將更進一步把故事和營隊整合，配合豐富的課程、座談會及社群闖關，絕對能讓學員擁有截然不同的營隊體驗。</p>
+          <p>
+            2021 年度，SITCON
+            夏令營因應疫情改於線上舉辦，以「開源星球，源力崛起」為主軸，帶領各位一同進入開源宇宙。我們將傳承歷屆夏令營的概念，今年的線上夏令營將會把往年的豐富活動都移轉到線上舉行，也會有從基礎
+            Python
+            程式語言到做出自己的聊天機器人的實作課程。開源宇宙也將更進一步把故事和營隊整合，配合豐富的課程、座談會及社群闖關，絕對能讓學員擁有截然不同的營隊體驗。
+          </p>
         </div>
         <div class="img" style="min-width: 400px">
           <img src="/2021/img/48711198528_e7ac02a80b_k.jpg" />
         </div>
         <img src="/2021/img/flag.svg" class="flag-img" />
       </div>
-      <section id="課程活動" style="padding-top: 128px;margin-top: -96px">
+      <section id="課程活動" style="padding-top: 128px; margin-top: -96px">
         <h1 style="margin: 16px 0">課程活動</h1>
         <time-table />
         <div class="img-content-container">
           <div class="content">
             <h2 class="with-underline">主線課程</h2>
             <p>講師們會帶著大家從零開始認識 Python，並在最後做出專屬於自己的 Discord 聊天機器人。</p>
-            <p>在課程中，將會採取小班制教學，由 1 位助教來帶領 2 位學員，透過分段播放講師的預錄影片，穿插多個動手實作練習，並搭配即時的助教及講師的協助，來確保每一位學員都可以跟上課程進度。</p>
+            <p>
+              在課程中，將會採取小班制教學，由 1 位助教來帶領 2
+              位學員，透過分段播放講師的預錄影片，穿插多個動手實作練習，並搭配即時的助教及講師的協助，來確保每一位學員都可以跟上課程進度。
+            </p>
             <p>營期結束後，也能透過公佈的主線課程影片再次溫習，當你熊熊忘記 Discord bot 怎麼寫的時候，它，會是你的好幫手！</p>
           </div>
           <div class="img">
@@ -46,7 +60,9 @@
         <div class="img-content-container">
           <div class="content">
             <h2 class="with-underline">Hackathon</h2>
-            <p>黑客松（Hackathon）是「黑客」（Hack；原指早期為電腦系統找尋不完美的地方，或是探索不同的解法，來改善電腦系統）與「馬拉松」（Marathon）的組合字，顧名思義，也就像是程式設計、工程界的馬拉松：由有興趣的一群人在有限的時間內，發揮自己的專長做出一個有特色的專案。</p>
+            <p>
+              黑客松（Hackathon）是「黑客」（Hack；原指早期為電腦系統找尋不完美的地方，或是探索不同的解法，來改善電腦系統）與「馬拉松」（Marathon）的組合字，顧名思義，也就像是程式設計、工程界的馬拉松：由有興趣的一群人在有限的時間內，發揮自己的專長做出一個有特色的專案。
+            </p>
             <p>雖然夏令營改為線上，但我們也準備了共同編輯的工具，讓大家即使宅在家，也能獲得完成專案的成就感!</p>
           </div>
           <div class="img">
@@ -56,7 +72,9 @@
         <div class="img-content-container">
           <div class="content">
             <h2 class="with-underline">廣度課程</h2>
-            <p>為避免單一的教學方式限制了學員對資訊領域的視野，夏令營在設計時，特別安排了廣度課程。讓學員在學習基礎課程之餘，也能學到資訊領域的其他層面，增加自身資訊技能的廣度。其中，我們邀請到了許多在資訊圈打滾多年的權威人士分享自身經驗，期許能為迷茫中的學員，點亮未來的一盞明燈，找到屬於自己的資訊路。</p>
+            <p>
+              為避免單一的教學方式限制了學員對資訊領域的視野，夏令營在設計時，特別安排了廣度課程。讓學員在學習基礎課程之餘，也能學到資訊領域的其他層面，增加自身資訊技能的廣度。其中，我們邀請到了許多在資訊圈打滾多年的權威人士分享自身經驗，期許能為迷茫中的學員，點亮未來的一盞明燈，找到屬於自己的資訊路。
+            </p>
           </div>
           <div class="img">
             <img src="/2021/img/48711673932_dd4e775482_k.jpg" />
@@ -65,7 +83,10 @@
         <div class="img-content-container">
           <div class="content">
             <h2 class="with-underline">視界咖啡館</h2>
-            <p>視界咖啡館參考自世界咖啡館（The World Café），在本次夏令營中，我們邀請到各領域及社群知名前輩，將傳統座談會形式改以聊天的樣貌呈現。學員可以與資訊界的名人們近距離互動，期望透過縮短講者與學員之間的距離，講者可以更針對學員給出建議，也鼓勵學員踴躍提問、參與，進而產生良好的雙向交流。</p>
+            <p>
+              視界咖啡館參考自世界咖啡館（The World
+              Café），在本次夏令營中，我們邀請到各領域及社群知名前輩，將傳統座談會形式改以聊天的樣貌呈現。學員可以與資訊界的名人們近距離互動，期望透過縮短講者與學員之間的距離，講者可以更針對學員給出建議，也鼓勵學員踴躍提問、參與，進而產生良好的雙向交流。
+            </p>
           </div>
           <div class="img">
             <img src="/2021/img/48711185743_0289ac2d95_k.jpg" />
@@ -75,7 +96,9 @@
           <div class="content">
             <h2 class="with-underline">社群闖關</h2>
             <p>就算有疫情，社群也從不缺席！</p>
-            <p>社群闖關邀請許多資訊相關社群前來擺攤，藉由互動遊戲、影片欣賞、專人介紹...等方式，讓學員認識所謂的「社群」，並對開源活動有初步了解。</p>
+            <p>
+              社群闖關邀請許多資訊相關社群前來擺攤，藉由互動遊戲、影片欣賞、專人介紹...等方式，讓學員認識所謂的「社群」，並對開源活動有初步了解。
+            </p>
           </div>
           <div class="img">
             <img src="/2021/img/48711417321_9811d901a1_k.jpg" />
@@ -85,9 +108,16 @@
           <div class="content">
             <h2 class="with-underline">故事劇情</h2>
             <p>我們會將故事劇情帶入課程中，讓學員在學習時更有樂趣！</p>
-            <p>延續 2019 年的故事，在解決了 SITCON 艦艇號的問題後，在宇宙中的隊長們終於意識到我們的地球在小石被替除的前隊員拿走後，就已經失去開源力了。</p>
+            <p>
+              延續 2019 年的故事，在解決了 SITCON
+              艦艇號的問題後，在宇宙中的隊長們終於意識到我們的地球在小石被替除的前隊員拿走後，就已經失去開源力了。
+            </p>
             <p>宇宙中的萬物都需要仰賴開源力來維持生命，而地球的開源力被取走了，也不再產生新生命了。</p>
-            <p>兩千年過後的現在，地球上的生命體不是壽命已到離開了這個世界，就是已經離開地球，到宇宙當中生存了。 ———現在，我們將要重新返航到地球去，將地球開源力的能量來源『小石』帶回到地球中，讓地球回到 2000 年前的美麗，不再如此的了無生息。</p>
+            <p>
+              兩千年過後的現在，地球上的生命體不是壽命已到離開了這個世界，就是已經離開地球，到宇宙當中生存了。
+              ———現在，我們將要重新返航到地球去，將地球開源力的能量來源『小石』帶回到地球中，讓地球回到 2000
+              年前的美麗，不再如此的了無生息。
+            </p>
           </div>
           <div class="img">
             <img src="/2021/img/48711678192_f77e8b5d4b_c.jpg" />
@@ -113,12 +143,12 @@
         </p>
       </div>
       <div class="image-wall">
-        <splide :options="{...imageWallOptions,interval: 5000,focus: 'center'}">
+        <splide :options="{ ...imageWallOptions, interval: 5000, focus: 'center' }">
           <splide-slide v-for="item of imageWall.row1" :key="item">
             <img :src="item" />
           </splide-slide>
         </splide>
-        <splide :options="{...imageWallOptions,interval: 4600}" style="margin-top: 48px">
+        <splide :options="{ ...imageWallOptions, interval: 4600 }" style="margin-top: 48px">
           <splide-slide v-for="item of imageWall.row2" :key="item">
             <img :src="item" />
           </splide-slide>
@@ -129,13 +159,13 @@
         <a href="https://www.flickr.com/photos/sitcon/albums" target="_blank">查看更多照片</a>
       </div>
     </div>
-    <splide :options="{...reportOptions}" style="margin: 32px 0" id="report-splide">
-      <splide-slide v-for="({name,avatar,content,link,year},i) of reportItems" :key="i">
+    <splide :options="{ ...reportOptions }" style="margin: 32px 0" id="report-splide">
+      <splide-slide v-for="({ name, avatar, content, link, year }, i) of reportItems" :key="i">
         <div class="report">
           <img class="avatar" :src="avatar" />
-          <div class="title">SITCON Camp {{year}} 學員</div>
-          <div class="name">{{name}}</div>
-          <div class="content" v-html="content.replace(/\n/g,'<br>')" />
+          <div class="title">SITCON Camp {{ year }} 學員</div>
+          <div class="name">{{ name }}</div>
+          <div class="content" v-html="content.replace(/\n/g, '<br>')" />
           <div class="readmore">
             <a :href="link" target="_blank" v-if="link.startsWith('http')">閱讀全文</a>
             <router-link :to="link" v-else>閱讀全文</router-link>
@@ -157,7 +187,7 @@
           <p>詳細資訊請點選下方前往報名</p>
         </section>
       </div>
-      <section id="報名資訊" style="padding-top: 128px;margin-top: -80px">
+      <section id="報名資訊" style="padding-top: 128px; margin-top: -80px">
         <h1>報名資訊</h1>
         <div class="signup-info">
           <div class="time">
@@ -165,7 +195,7 @@
             <h2>即日起 ~ 2021/07/10</h2>
           </div>
           <div class="sign-up">
-            <div class="signup-btn" @click="showSignupInfo=true">前往報名 ➡</div>
+            <div class="signup-btn disabled">報名已截止</div>
           </div>
           <div class="price-container">
             <div class="price-item">
@@ -184,17 +214,11 @@
           <p>正取學員名單將於 07/23 公佈，屆時請關注 SITCON 相關社群媒體。</p>
           <p>
             正取學員需完成報名費繳交，始完成報名程序；另設有補助名額，請詳閱
-            <a
-              href="https://drive.google.com/file/d/1kODllu2VNdeUi_covc_PeW8WnffCEhTH/view"
-              target="_blank"
-            >補助辦法</a>。
+            <a href="https://drive.google.com/file/d/1kODllu2VNdeUi_covc_PeW8WnffCEhTH/view" target="_blank">補助辦法</a>。
           </p>
           <p>
             關於退費事宜，請見
-            <a
-              href="https://drive.google.com/file/d/1xMgpsaATsIlSWfv31VcV0dCuy8if5tqE/view"
-              target="_blank"
-            >退費說明文件</a>。
+            <a href="https://drive.google.com/file/d/1xMgpsaATsIlSWfv31VcV0dCuy8if5tqE/view" target="_blank">退費說明文件</a>。
           </p>
         </div>
       </section>
@@ -205,7 +229,11 @@
           <h1>關於 SITCON</h1>
           <router-link to="/about">深入瞭解</router-link>
         </div>
-        <p>學生計算機年會（SITCON）是由學生自發舉辦，投身學生資訊教育與推廣開源精神的社群， 也是一個由學生主辦、學生擔任講者、以學生為主軸的資訊研討會，給學生們一個發表交流技術的舞台。 除了技術研討之外，還有許多從學生角度出發的經驗分享、專題研究成果或探討學生相關議題等等議程。</p>
+        <p>
+          學生計算機年會（SITCON）是由學生自發舉辦，投身學生資訊教育與推廣開源精神的社群，
+          也是一個由學生主辦、學生擔任講者、以學生為主軸的資訊研討會，給學生們一個發表交流技術的舞台。
+          除了技術研討之外，還有許多從學生角度出發的經驗分享、專題研究成果或探討學生相關議題等等議程。
+        </p>
         <p>我們也曾舉辦黑客松、工作坊，和各地學校社團舉辦聯合講座等等。</p>
       </section>
       <section>
@@ -214,7 +242,10 @@
           <router-link to="/coc">深入瞭解</router-link>
         </div>
 
-        <p>SITCON 歡迎不同身分、來自不同背景的與會者，也非常鼓勵女性、性少數與多元背景的參與者。為了讓大家都能愉快的參加 SITCON，我們要求所有參與者閱讀社群的的行為準則（Code of Conduct），共同創造一個友善的環境。</p>
+        <p>
+          SITCON 歡迎不同身分、來自不同背景的與會者，也非常鼓勵女性、性少數與多元背景的參與者。為了讓大家都能愉快的參加
+          SITCON，我們要求所有參與者閱讀社群的的行為準則（Code of Conduct），共同創造一個友善的環境。
+        </p>
       </section>
     </div>
     <div class="special-thanks container">
@@ -238,16 +269,16 @@
 </template>
 
 <script>
-import jsonldData from "@/assets/jsonldData.js";
+import jsonldData from '@/assets/jsonldData.js'
 export default {
   data: () => ({
     reportOptions: {
-      type: "loop",
+      type: 'loop',
       perPage: 5,
       perMove: 1,
-      gap: "24px",
+      gap: '24px',
       pagination: false,
-      focus: "center",
+      focus: 'center',
       breakpoints: {
         1024: {
           perPage: 1,
@@ -261,51 +292,51 @@ export default {
     },
     reportItems: [
       {
-        name: "William Mou",
-        avatar: "https://i.imgur.com/rnV72WM.jpg",
+        name: 'William Mou',
+        avatar: 'https://i.imgur.com/rnV72WM.jpg',
         year: 2017,
         content:
-          "常常，我們總覺得拼命的看書與學習，便可以使自己快速成長。\n然而，有所遺漏的是，當我們獨自精進時，常常會忽略了其他更重要的技能…",
-        link: "/report/WilliamMou"
+          '常常，我們總覺得拼命的看書與學習，便可以使自己快速成長。\n然而，有所遺漏的是，當我們獨自精進時，常常會忽略了其他更重要的技能…',
+        link: '/report/WilliamMou'
       },
       {
-        name: "李杰穎",
-        avatar: "https://i.imgur.com/SY6Zi2x.jpg",
+        name: '李杰穎',
+        avatar: 'https://i.imgur.com/SY6Zi2x.jpg',
         year: 2019,
         content:
-          "這是我參加過課程最硬的營隊，也是唯一一次在營期中熬夜到三點的。\n這次程式開發的經驗真的讓我了解到什麼叫跟時間賽跑，我從來沒有打code打到凌晨3點，早上7點起來繼續的經驗。而且做出來的成品是真的可以用的，就真的非常非常有成就感，期望以後還有機會體驗到這種開發的經驗。\nSITCON 2020 我會去的！！！（當工人感覺不錯呢）",
-        link: "https://jayin92.github.io/posts/2019-sitcon-camp/"
+          '這是我參加過課程最硬的營隊，也是唯一一次在營期中熬夜到三點的。\n這次程式開發的經驗真的讓我了解到什麼叫跟時間賽跑，我從來沒有打code打到凌晨3點，早上7點起來繼續的經驗。而且做出來的成品是真的可以用的，就真的非常非常有成就感，期望以後還有機會體驗到這種開發的經驗。\nSITCON 2020 我會去的！！！（當工人感覺不錯呢）',
+        link: 'https://jayin92.github.io/posts/2019-sitcon-camp/'
       },
       {
-        name: "Vincent55",
-        avatar: "https://i.imgur.com/I7iV7Fo.jpg",
+        name: 'Vincent55',
+        avatar: 'https://i.imgur.com/I7iV7Fo.jpg',
         year: 2019,
         content:
-          "在參加 SITCON 夏令營前，我只知道資訊中的演算法競賽，參加後，我知道資安、專案開發、人工智慧…等領域，甚至認識到了在這些領域前段的社群朋友們。\n以我自己的經驗，我參加了…",
-        link: "/report/vincent"
+          '在參加 SITCON 夏令營前，我只知道資訊中的演算法競賽，參加後，我知道資安、專案開發、人工智慧…等領域，甚至認識到了在這些領域前段的社群朋友們。\n以我自己的經驗，我參加了…',
+        link: '/report/vincent'
       },
       {
-        name: "陳俊宇",
-        avatar: "https://i.imgur.com/RlcXMX1.png",
+        name: '陳俊宇',
+        avatar: 'https://i.imgur.com/RlcXMX1.png',
         year: 2019,
         content:
-          "Telegram bot 技術門檻不高，只要會一些基本的 Python 語法就能做出來，這也是這五天 SITCON 夏令營的主要課程之一。\n我們的黑客松題目：猜歌機器人，不知道你有沒有這樣的經驗，和一群動漫迷時，放一首動漫歌曲，看對方由沒有聽過；而這次的黑客松，我們小隊打算在 Telegram 上做一個猜歌機器人，主要流程如下…",
-        link: "https://forum.gamer.com.tw/C.php?bsn=60292&snA=5734&tnum=1"
+          'Telegram bot 技術門檻不高，只要會一些基本的 Python 語法就能做出來，這也是這五天 SITCON 夏令營的主要課程之一。\n我們的黑客松題目：猜歌機器人，不知道你有沒有這樣的經驗，和一群動漫迷時，放一首動漫歌曲，看對方由沒有聽過；而這次的黑客松，我們小隊打算在 Telegram 上做一個猜歌機器人，主要流程如下…',
+        link: 'https://forum.gamer.com.tw/C.php?bsn=60292&snA=5734&tnum=1'
       },
       {
-        name: "楊芷安",
-        avatar: "/2021/img/avatar.svg",
+        name: '楊芷安',
+        avatar: '/2021/img/avatar.svg',
         year: 2019,
         content:
-          "“視”界咖啡館使用座談會的形式對講師們問問題，輪到與PCman的訪談，其實一開始我對他比較沒有那麼感興趣，但後來他分享自己如何從學醫回到資工的經驗還挺精彩的，他也將醫生檢查病人的那套 SOP 運用在 debug 上，強大的 SOP，居然不只可以用在當市長，還可以 debug 啊~",
-        link: "https://anjoincamp.blogspot.com/2019/08/sitcon-camp.html"
+          '“視”界咖啡館使用座談會的形式對講師們問問題，輪到與PCman的訪談，其實一開始我對他比較沒有那麼感興趣，但後來他分享自己如何從學醫回到資工的經驗還挺精彩的，他也將醫生檢查病人的那套 SOP 運用在 debug 上，強大的 SOP，居然不只可以用在當市長，還可以 debug 啊~',
+        link: 'https://anjoincamp.blogspot.com/2019/08/sitcon-camp.html'
       }
     ],
     imageWallOptions: {
-      type: "loop",
+      type: 'loop',
       perPage: 6,
       perMove: 1,
-      gap: "10px",
+      gap: '10px',
       height: 200,
       heightRatio: 0.2,
       autoplay: true,
@@ -321,23 +352,23 @@ export default {
     },
     imageWall: {
       row1: [
-        "/2021/img/48711148968_c0c5b92648_k.jpg",
-        "/2021/img/48711158398_a9e76fe8c6_k.jpg",
-        "/2021/img/48711173683_6a5438b593_k.jpg",
-        "/2021/img/48711180203_df7f6ba7b3_k.jpg",
-        "/2021/img/48711432406_1dc02a6270_k.jpg",
-        "/2021/img/48711460716_f573528caf_k.jpg",
-        "/2021/img/48711478201_f0b3b61d1f_k.jpg"
+        '/2021/img/48711148968_c0c5b92648_k.jpg',
+        '/2021/img/48711158398_a9e76fe8c6_k.jpg',
+        '/2021/img/48711173683_6a5438b593_k.jpg',
+        '/2021/img/48711180203_df7f6ba7b3_k.jpg',
+        '/2021/img/48711432406_1dc02a6270_k.jpg',
+        '/2021/img/48711460716_f573528caf_k.jpg',
+        '/2021/img/48711478201_f0b3b61d1f_k.jpg'
       ],
       row2: [
-        "/2021/img/48711504911_54e1d297c7_k.jpg",
-        "/2021/img/48711513221_eddbacab82_k.jpg",
-        "/2021/img/48711514086_fe8bcd70a3_k.jpg",
-        "/2021/img/48711645867_304b3f2727_k.jpg",
-        "/2021/img/48711654047_e36f5fe98d_k.jpg",
-        "/2021/img/48711655747_6f4d128066_k.jpg",
-        "/2021/img/48711675447_324a2915f4_k.jpg",
-        "/2021/img/48711684617_e8d23396b3_k.jpg"
+        '/2021/img/48711504911_54e1d297c7_k.jpg',
+        '/2021/img/48711513221_eddbacab82_k.jpg',
+        '/2021/img/48711514086_fe8bcd70a3_k.jpg',
+        '/2021/img/48711645867_304b3f2727_k.jpg',
+        '/2021/img/48711654047_e36f5fe98d_k.jpg',
+        '/2021/img/48711655747_6f4d128066_k.jpg',
+        '/2021/img/48711675447_324a2915f4_k.jpg',
+        '/2021/img/48711684617_e8d23396b3_k.jpg'
       ]
     },
     showSignupInfo: false,
@@ -345,17 +376,17 @@ export default {
   }),
   methods: {
     videoReady(event) {
-      this.player = event.target;
-      this.player.playVideo();
+      this.player = event.target
+      this.player.playVideo()
     },
     videoEnded() {
-      this.player.seekTo(0);
+      this.player.seekTo(0)
     }
   },
   jsonld() {
-    return jsonldData;
+    return jsonldData
   }
-};
+}
 </script>
 <style lang="sass">
 .hero-header
@@ -520,7 +551,10 @@ export default {
     box-shadow: inset 0 0 10em rgba(0, 0, 0, .1)
   &:active
     box-shadow: inset 0 0 10em rgba(0, 0, 0, .2)
-
+  &.disabled
+    opacity: .75
+    cursor: not-allowed
+    pointer-events: none
 .event-info
   display: flex
   section
