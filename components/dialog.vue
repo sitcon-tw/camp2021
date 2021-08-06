@@ -25,12 +25,13 @@ export default {
   opacity: 0
   pointer-events: none
   transition: opacity .4s ease
+  animation: fadeIn .4s ease
   &.show
     display: block
     opacity: 1
     pointer-events: initial
-  .dialog-content
-    animation: fadeInUp .4s ease
+    .dialog-content
+      animation: fadeInUp .4s ease
   .dialog-overlay
     position: absolute
     top: 0
