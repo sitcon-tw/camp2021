@@ -1,73 +1,164 @@
 <template>
-  <div>
+  <div class="time-table-container">
     <table border="0" class="time-table">
+      <thead>
+        <tr>
+          <th>時間</th>
+          <th>
+            Day 1
+            <div class="subtitle">8/11（三）</div>
+          </th>
+          <th>
+            Day 2
+            <div class="subtitle">8/12（四）</div>
+          </th>
+          <th>
+            Day 3
+            <div class="subtitle">8/13（五）</div>
+          </th>
+          <th>
+            Day 4
+            <div class="subtitle">8/14（六）</div>
+          </th>
+          <th>
+            Day 5
+            <div class="subtitle">8/15（日）</div>
+          </th>
+          <th>
+            Day 6
+            <div class="subtitle">8/16（一）</div>
+          </th>
+          <th>
+            Day 7
+            <div class="subtitle">8/17（二）</div>
+          </th>
+        </tr>
+      </thead>
       <tbody>
         <tr>
-          <td>時間</td>
-          <td>8/11（三）</td>
-          <td>8/12（四）</td>
-          <td>8/13（五）</td>
-          <td>8/14（六）</td>
-          <td>8/15（日）</td>
-          <td>8/16（一）</td>
-          <td>8/17（二）</td>
-        </tr>
-        <tr>
-          <td>08:40-10:00</td>
+          <td>08:40</td>
           <td>
-            <p>開幕</p>
+            艦隊離港
+            <div class="subtitle">開幕</div>
           </td>
-          <td rowspan="2" @click="showCourseInfo('開源力的基本型態')" class="clickable">開源力的基本型態</td>
-          <td rowspan="2" @click="showCourseInfo('義大利麵令人戒慎恐懼')" class="clickable">義大利麵令人戒慎恐懼</td>
-          <td rowspan="2" @click="showCourseInfo('凝聚開源能量吧')" class="clickable">凝聚開源能量吧</td>
-          <td rowspan="2">視界咖啡館</td>
-          <td rowspan="9">黑客松</td>
-          <td rowspan="5">黑客松</td>
+          <td rowspan="3" @click="showCourseInfo('開源力的基本型態')" class="clickable">
+            開源力的基本型態
+            <div class="subtitle">Python 3</div>
+          </td>
+          <td rowspan="3" @click="showCourseInfo('義大利麵令人戒慎恐懼')" class="clickable">
+            義大利麵令人戒慎恐懼
+            <div class="subtitle">Python 中的 Function 與 Module</div>
+          </td>
+          <td rowspan="3" @click="showCourseInfo('在手心凝聚開源能量吧')" class="clickable">
+            在手心凝聚開源能量吧
+            <div class="subtitle">手把手建立一個 Discord Bot</div>
+          </td>
+          <td rowspan="3">
+            宇宙也並非特別安全…
+            <div class="subtitle">密室逃脫</div>
+          </td>
+          <td rowspan="11">
+            揭開地球沉寂的面紗
+            <div class="subtitle">黑客松</div>
+          </td>
+          <td rowspan="6">
+            踏入死寂的第一步
+            <div class="subtitle">黑客松</div>
+          </td>
         </tr>
         <tr>
-          <td>10:00-12:00</td>
-          <td>認識 Discord Bot</td>
+          <td>10:00</td>
+          <td rowspan="2">
+            認識艦船自動駕駛系統
+            <div class="subtitle">以及 Discord Bot</div>
+          </td>
         </tr>
         <tr>
-          <td>12:00-13:30</td>
-          <td>用餐時間</td>
-          <td>用餐時間</td>
-          <td>用餐時間</td>
-          <td>用餐時間</td>
-          <td>用餐時間</td>
+          <td>11:00</td>
         </tr>
         <tr>
-          <td>13:30-14:50</td>
-          <td rowspan="4" @click="showCourseInfo('和飛船保持社交距離')" class="clickable">和飛船保持社交距離</td>
-          <td>廣度課程</td>
-          <td>神秘活動</td>
-          <td>開源精神短講</td>
-          <td rowspan="3">密室逃脫</td>
+          <td>12:00</td>
+          <td colspan="5">午餐</td>
         </tr>
         <tr>
-          <td>14:50-15:00</td>
-          <td rowspan="5" @click="showCourseInfo('星際間的通訊')" class="clickable">星際間的通訊</td>
-          <td rowspan="5" @click="showCourseInfo('在巨人的右肩乘涼')" class="clickable">在巨人的右肩乘涼</td>
-          <td rowspan="5">社群闖關</td>
+          <td>13:30</td>
+          <td rowspan="4" @click="showCourseInfo('和飛船保持社交距離')" class="clickable">
+            和飛船保持社交距離
+            <div class="subtitle">基礎遠端操作與編輯器教學</div>
+          </td>
+          <td rowspan="2" @click="showCourseInfo('咦…不夠嗎？')" class="clickable">
+            咦…不夠嗎？
+            <div class="subtitle">廣度課程</div>
+          </td>
+          <td rowspan="2">
+            神秘活動
+            <div class="subtitle">連介紹也是很神秘</div>
+          </td>
+          <td rowspan="2">
+            是什麼讓人們聚在一起
+            <div class="subtitle">開源精神短講</div>
+          </td>
+          <td rowspan="3" @click="showCourseInfo('驚！長老竟在我眼前…')" class="clickable">
+            驚！長老竟在我眼前…
+            <div class="subtitle">視界咖啡館</div>
+          </td>
         </tr>
         <tr>
-          <td>15:00-16:40</td>
-          <td rowspan="3">黑客松發表</td>
+          <td>14:50</td>
         </tr>
         <tr>
-          <td>16:40-16:50</td>
-          <td rowspan="3">黑客松</td>
+          <td>15:00</td>
+          <td rowspan="5" @click="showCourseInfo('在星際間通訊')" class="clickable">
+            在星際間通訊
+            <div class="subtitle">HTTP / RESTful</div>
+          </td>
+          <td rowspan="5" @click="showCourseInfo('在巨人的右肩乘涼')" class="clickable">
+            在巨人的右肩乘涼
+            <div class="subtitle">常用 Python 套件</div>
+          </td>
+          <td rowspan="5">
+            當飛船與國際太空站對接
+            <div class="subtitle">社群闖關</div>
+          </td>
+          <td rowspan="4">
+            下一站，地球
+            <div class="subtitle">黑客松發表</div>
+          </td>
         </tr>
         <tr>
-          <td>16:50-17:40</td>
-          <td rowspan="2">廣度課程</td>
+          <td>16:00</td>
+          <td rowspan="2">
+            觸碰飛船的運算核心
+            <div class="subtitle">廣度課程</div>
+          </td>
         </tr>
         <tr>
-          <td>17:40-18:00</td>
-          <td>閉幕</td>
+          <td>17:00</td>
+          <td rowspan="3" @click="showCourseInfo('請問這樣看得夠開嗎？')" class="clickable">
+            請問這樣看得夠開嗎？
+            <div class="subtitle">廣度課程</div>
+          </td>
+        </tr>
+        <tr>
+          <td>17:40</td>
+          <td rowspan="3">
+            想將開源力捏成什麼樣子呢?
+            <div class="subtitle">黑客松</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            18:00
+            <div class="subtitle">休息</div>
+          </td>
+          <td>
+            宇宙的命運掌握在各位手中?
+            <div class="subtitle">閉幕</div>
+          </td>
         </tr>
       </tbody>
     </table>
+
     <Dialog v-model="courseInfoDialog">
       <div class="course-title">{{ courseInfoData.title }}</div>
       <div class="course-subtitle">{{ courseInfoData.subtitle }}</div>
@@ -97,22 +188,29 @@ export default {
         {
           name: '蓬蓬鬆餅',
           description: '～世人都愛的美味鬆餅～'
+        },
+        {
+          name: 'Sciuridae',
+          description: '喵喵喵！Furry 好可愛喔'
         }
       ]
     }
   }),
   methods: {
     showCourseInfo(id) {
-      console.log(this.speakers)
-      let { subtitle, description, speakers } = this.courses[id]
-      speakers = speakers.map(x => ({ name: x, description: this.speakers[x] }))
-      this.courseInfoData = {
-        title: id,
-        subtitle,
-        description,
-        speakers
+      try {
+        let { subtitle, description, speakers } = this.courses[id]
+        speakers = speakers.map(x => ({ name: x, description: this.speakers[x] }))
+        this.courseInfoData = {
+          title: id,
+          subtitle,
+          description,
+          speakers
+        }
+        this.courseInfoDialog = true
+      } catch (e) {
+        alert('蹦蹦')
       }
-      this.courseInfoDialog = true
     }
   }
 }
@@ -148,10 +246,19 @@ export default {
     font-size: 22px
   .course-description
     font-size: 16px
+.time-table-container
+  width: 100%
+  overflow-x: auto
 .time-table
   width: 100%
+  min-width: 800px
   border-radius: 16px
   overflow: hidden
+  th,td
+    .subtitle
+      opacity: .75
+      font-size: .9em
+      text-decoration: none
   th
     background-color: rgb(40 89 119 / 40%)
   td
@@ -159,9 +266,16 @@ export default {
     text-align: center
     height: 2em
     width: calc(100% / 8)
+    position: relative
+    padding: 1em 0.5em 1em 0.5em
     &.clickable
       cursor: pointer
-      text-decoration: underline
+      &:before
+        position: absolute
+        content: '...'
+        bottom: 0
+        right: 4px
+        font-size: 10px
     &:hover
       background-color: rgb(40 89 119 / 30%)
 
