@@ -17,7 +17,7 @@
           <td>
             <p>開幕</p>
           </td>
-          <td rowspan="2">主線課程</td>
+          <td rowspan="2" @click="showCourseInfo('開源力的基本型態')" class="clickable">開源力的基本型態</td>
           <td rowspan="2" @click="showCourseInfo('義大利麵令人戒慎恐懼')" class="clickable">義大利麵令人戒慎恐懼</td>
           <td rowspan="2" @click="showCourseInfo('凝聚開源能量吧')" class="clickable">凝聚開源能量吧</td>
           <td rowspan="2">視界咖啡館</td>

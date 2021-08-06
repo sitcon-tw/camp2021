@@ -5,7 +5,7 @@ export default {
             description: '一開始會講一些基礎 Linux、Vim 的操作，主要時間圍繞在基礎的 Python 語法跟練習，用練習讓學員快速熟悉語法。',
             speakers: ['橋毅']
         },
-        初出茅廬: {
+        開源力的基本型態: {
             subtitle: 'Python 3',
             description: '這堂課主要的內容是迴圈跟容器的部分，一樣用大量的練習讓學員可以活用迴圈跟容器的操作。',
             speakers: ['橋毅']
