@@ -138,6 +138,16 @@ export default {
 .course-description
   font-size: 20px
   line-height: 1.5em
+
+@media screen and (max-width: 768px)
+  .course-title
+    font-size: 28px
+  .course-subtitle
+    font-size: 22px
+  .course-info-title
+    font-size: 22px
+  .course-description
+    font-size: 16px
 .time-table
   width: 100%
   border-radius: 16px
