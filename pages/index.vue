@@ -260,6 +260,9 @@
         <div class="item">
           <img src="/2021/img/hpe.svg" />
         </div>
+        <div class="item">
+          <img src="/2021/img/gather.svg" />
+        </div>
       </div>
     </div>
     <Dialog v-model="showSignupInfo">
