@@ -12,8 +12,8 @@ export default {
         },
         星際間的通訊: {
             subtitle: 'HTTP / RESTful',
-            description: '每天你在手機滑著 Instagram，又或是在電腦上打開瀏覽器逛著各種網頁，你是否有想過這些內容是如何呈現在你的眼前？ 聽到伺服器這個詞，你想到了什麼？架伺服器真的有這麼困難？到底伺服器要做什麼事情？ 這堂課程將帶你看透一切，過去對你來說或許是黑魔法的未知領域，在課程過後相信你對世界會有嶄新的看法！',
-            speakers: ['丹丹']
+            description: '每天你在手機滑著 Instagram，又或是在電腦上打開瀏覽器逛著各種網頁，你是否有想過這些內容是如何呈現在你的眼前？聽到伺服器這個詞，你想到了什麼？架伺服器真的有這麼困難？到底伺服器要做什麼事情？ 這堂課程將帶你看透一切，過去對你來說或許是黑魔法的未知領域，在課程過後相信你對世界會有嶄新的看法！',
+            speakers: ['Denny Huang']
         },
         義大利麵令人戒慎恐懼: {
             subtitle: 'Python 中的 Function 與 Module',
@@ -22,7 +22,7 @@ export default {
         },
         在巨人的右肩乘涼: {
             subtitle: '常用的 Python 套件',
-            description: '概述Python套件功能及常用到的Python套件，讓你在寫程式的時候更加輕鬆😉',
+            description: '概述 Python 套件功能及常用到的 Python 套件，讓你在寫程式的時候更加輕鬆😉',
             speakers: ['康喔']
         },
         凝聚開源能量吧: {
@@ -33,7 +33,7 @@ export default {
     },
     speakers: {
         橋毅: '哈溜，我是橋毅，目前是嘉義高中高三生。',
-        丹丹: 'SITCON 學生計算機年會共同發起人，目前於雷亞遊戲（Rayark Inc.）擔任 Data Team Lead；在正規教育中特例獨行，妄想透過改善教育讓台灣更進步，崇尚開源精神，熱愛使用者界面以外的多項技術。',
+        'Denny Huang': 'SITCON 學生計算機年會共同發起人，目前於雷亞遊戲（Rayark Inc.）擔任 Data Team Lead；在正規教育中特例獨行，妄想透過改善教育讓台灣更進步，崇尚開源精神，熱愛使用者界面以外的多項技術。',
         CSY: '目前就讀於<span style="color: #0000">陽明</span>交通大學，即將成為 Suffermore。正在朝著 Full Stack Developer 邁進，最愛的編（I）輯（D）器（E）是 Vim。剛踏入資訊安全的大門，偶爾會打打 CTF，歡迎交流><',
         康喔: '嗨嗨，我是康喔，一個在台科爆肝的大二生，對什麼感興趣就會沒日沒夜的研究，這就是爆肝的開頭吧？'
     }
