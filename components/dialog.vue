@@ -24,10 +24,11 @@ export default {
   z-index: 99
   opacity: 0
   pointer-events: none
+  visibility: hidden
   transition: opacity .4s ease
   animation: fadeIn .4s ease
   &.show
-    display: block
+    visibility: visible
     opacity: 1
     pointer-events: initial
     .dialog-content
@@ -40,6 +41,7 @@ export default {
     height: 100%
     background-color: rgba(0,0,0,.8)
     cursor: pointer
+    -webkit-tap-highlight-color: transparent
   .dialog-content
     position: relative
     margin: 32px auto
