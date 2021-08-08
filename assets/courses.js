@@ -1,8 +1,8 @@
 export default {
     courses: {
         和飛船保持社交距離: {
-            subtitle: '基礎遠端操作與編輯器教學',
-            description: '一開始會講一些基礎 Linux、Vim 的操作，主要時間圍繞在基礎的 Python 語法跟練習，用練習讓學員快速熟悉語法。',
+            subtitle: '基礎 Linux 操作與 Python 語法',
+            description: '一開始會講一些基礎 Linux 的操作，主要時間圍繞在基礎的 Python 語法跟練習，用練習讓學員快速熟悉語法。',
             speakers: ['橋毅']
         },
         開源力的基本型態: {
