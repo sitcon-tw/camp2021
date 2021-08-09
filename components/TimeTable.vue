@@ -177,8 +177,12 @@
         視界咖啡館參考自世界咖啡館（The World
         Café），在本次夏令營中，我們邀請到各領域及社群知名前輩，將傳統座談會形式改以聊天的樣貌呈現。學員可以與資訊界的名人們近距離互動，期望透過縮短講者與學員之間的距離，講者可以更針對學員給出建議，也鼓勵學員踴躍提問、參與，進而產生良好的雙向交流。
       </div>
+      <hr>
       <div class="course-info-title">講者介紹 - Allen Own</div>
       <div class="course-description"></div>
+      <div class="course-info-title">分享大綱</div>
+      <div class="course-description">TBD</div>
+      <hr>
       <div class="course-info-title">講者介紹 - IU</div>
       <div class="course-description">
         熱愛開源的軟體工程師，目前在 UniverseTech 任職前端主管，業餘時間喜歡參與各項開源專案與社群活動。<br />
@@ -186,13 +190,26 @@
         處理臺灣農地工廠的問題；也當過唐鳳辦公室實習生，負責協助政府健檢網站。也曾在 SITCON, COSCUP, g0v summit, HITCON 當過志工，協助入場
         APP 開發或是官網開發。在 SITCON 以前當過年會與此活動（夏令營）的總召。
       </div>
+      <div class="course-info-title">分享大綱</div>
+      <div class="course-description">
+        從高中開始踏上資訊的旅程，在各個地方遊蕩與學習相關資訊的技術，並同時參與多個開源專案與社群。
+        想利用此機會分享一路上的各種心路歷程，給對此有興趣的人一些想法。
+      </div>
+      <hr>
       <div class="course-info-title">講者介紹 - Howard Wu</div>
       <div class="course-description"></div>
+      <div class="course-info-title">分享大綱</div>
+      <div class="course-description">TBD</div>
+      <hr>
       <div class="course-info-title">講者介紹 - 蘇柏瑄 Brian Su</div>
       <div class="course-description">
         剛讀完大二的臺大資訊系學生，即將在暑假後成為大三生。高中時期不務正業，幾乎是個全職的程式競賽選手，參加過大大小小的比賽，並曾在亞塞拜然以臺灣歷史最佳名次拿下了國際資奧金牌。當過一年
         SITCON Camp 的學員、一年的 SITCON 與會者、兩年的 SITCON 工人、以及今年看起來要成為 SITCON Camp
         的講師，這淵源實在是兩三下講不完。目前在當個正常的大學生，偶爾打打大學的程式競賽。對後端開發及系統維護小有興趣，這個暑假也在因緣際會下去了金融公司實習。希望在這麼多不同領域間遊蕩的同時可以多少都把事情做好一點。
+      </div>
+      <div class="course-info-title">分享大綱</div>
+      <div class="course-description">
+        競賽是我目前為止短暫人生中不可分離的一部分，從國小一路到大學，從機器人競賽、科展、一路到程式（演算法）競賽，每個階段都有競賽的身影。雖然不務正業，但似乎總是比別人幸運一些，在拿到一點成果的同時，還是能在這個以成績跟考試為主體的教育體制下順利前行。在這次的分享中，想跟大家聊聊一路以來的各種心路歷程，遇到的各種趣事，也給一些同樣在為各種競賽或目標準備的人一點鼓勵。雖然我覺得我不是專業的，但如果有什麼你/妳覺得我能回答的，就也在這次的閒聊中提出來吧～
       </div>
     </Dialog>
   </div>
