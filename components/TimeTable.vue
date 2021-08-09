@@ -98,7 +98,7 @@
             是什麼讓人們聚在一起
             <div class="subtitle">開源精神短講</div>
           </td>
-          <td rowspan="3" @click="showCourseInfo('驚！長老竟在我眼前…')" class="clickable">
+          <td rowspan="3" @click="cafeDialog = true" class="clickable">
             驚！長老竟在我眼前…
             <div class="subtitle">視界咖啡館</div>
           </td>
@@ -169,6 +169,32 @@
         <div class="course-description" v-html="description" />
       </div>
     </Dialog>
+    <Dialog v-model="cafeDialog">
+      <div class="course-title">驚！長老竟在我眼前…</div>
+      <div class="course-subtitle">視界咖啡館</div>
+      <div class="course-info-title">課程介紹</div>
+      <div class="course-description">
+        視界咖啡館參考自世界咖啡館（The World
+        Café），在本次夏令營中，我們邀請到各領域及社群知名前輩，將傳統座談會形式改以聊天的樣貌呈現。學員可以與資訊界的名人們近距離互動，期望透過縮短講者與學員之間的距離，講者可以更針對學員給出建議，也鼓勵學員踴躍提問、參與，進而產生良好的雙向交流。
+      </div>
+      <div class="course-info-title">講者介紹 - Allen Own</div>
+      <div class="course-description"></div>
+      <div class="course-info-title">講者介紹 - IU</div>
+      <div class="course-description">
+        熱愛開源的軟體工程師，目前在 UniverseTech 任職前端主管，業餘時間喜歡參與各項開源專案與社群活動。<br />
+        包含知名前端 Vue 框架成員之一，幫忙維護 VSCode 與 Vue 的語言支持；同時參與 g0v Disfactory 專案，協助 NGO
+        處理臺灣農地工廠的問題；也當過唐鳳辦公室實習生，負責協助政府健檢網站。也曾在 SITCON, COSCUP, g0v summit, HITCON 當過志工，協助入場
+        APP 開發或是官網開發。在 SITCON 以前當過年會與此活動（夏令營）的總召。
+      </div>
+      <div class="course-info-title">講者介紹 - Howard Wu</div>
+      <div class="course-description"></div>
+      <div class="course-info-title">講者介紹 - 蘇柏瑄 Brian Su</div>
+      <div class="course-description">
+        剛讀完大二的臺大資訊系學生，即將在暑假後成為大三生。高中時期不務正業，幾乎是個全職的程式競賽選手，參加過大大小小的比賽，並曾在亞塞拜然以臺灣歷史最佳名次拿下了國際資奧金牌。當過一年
+        SITCON Camp 的學員、一年的 SITCON 與會者、兩年的 SITCON 工人、以及今年看起來要成為 SITCON Camp
+        的講師，這淵源實在是兩三下講不完。目前在當個正常的大學生，偶爾打打大學的程式競賽。對後端開發及系統維護小有興趣，這個暑假也在因緣際會下去了金融公司實習。希望在這麼多不同領域間遊蕩的同時可以多少都把事情做好一點。
+      </div>
+    </Dialog>
   </div>
 </template>
 
@@ -179,6 +205,7 @@ export default {
   data: () => ({
     courses,
     speakers,
+    cafeDialog: false,
     courseInfoDialog: false,
     courseInfoData: {
       title: '勝勝可愛',
