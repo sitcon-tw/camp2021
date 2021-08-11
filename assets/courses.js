@@ -47,15 +47,40 @@ export default {
         }
     },
     speakers: {
-        橋毅: '哈溜，我是橋毅，目前是嘉義高中高三生。',
-        'Denny Huang': 'SITCON 學生計算機年會共同發起人，目前於雷亞遊戲（Rayark Inc.）擔任 Data Team Lead；在正規教育中特例獨行，妄想透過改善教育讓台灣更進步，崇尚開源精神，熱愛使用者界面以外的多項技術。',
-        CSY: '目前就讀於<span style="color: #0000">陽明</span>交通大學，即將成為 Suffermore。正在朝著 Full Stack Developer 邁進，最愛的編（I）輯（D）器（E）是 Vim。剛踏入資訊安全的大門，偶爾會打打 CTF，歡迎交流><',
-        康喔: '嗨嗨，我是康喔，一個在台科爆肝的大二生，對什麼感興趣就會沒日沒夜的研究，這就是爆肝的開頭吧？',
-        '短短（Yichin）': 'HITCON GIRLS 成員<ul><li>大二參與資訊社群，接觸到 CTF 開始入門資安，於資安公司實習一年。</li><li>曾於 SITCON、CYBERSEC 分享資安 talk。</li><li>好奇心旺盛、興趣多元的準社畜。</li></ul>植物 / 甜點 / 瑜珈 / 閱讀 /  手沖 / 爬有繩子的山',
-        Johnson: '自 2011 年初投入獨立遊戲開發相關活動推廣，在同好與朋友協助下，定期舉辦聚會、Game Jam 等社群活動，現為 IGDShare 獨立遊戲開發者分享會資深雜工、IGDA Taiwan 聯絡人，以及台北遊戲開發者論壇（TGDF）共同發起人。',
-        'Allen Own': '',
-        IU: '熱愛開源的軟體工程師，目前在 UniverseTech 任職前端主管，業餘時間喜歡參與各項開源專案與社群活動。<br>包含知名前端 Vue 框架成員之一，幫忙維護 VSCode 與 Vue 的語言支持；同時參與 g0v Disfactory 專案，協助 NGO 處理臺灣農地工廠的問題；也當過唐鳳辦公室實習生，負責協助政府健檢網站。也曾在 SITCON, COSCUP, g0v summit, HITCON 當過志工，協助入場 APP 開發或是官網開發。在 SITCON 以前當過年會與此活動（夏令營）的總召。',
-        'Howard Wu': '',
-        '蘇柏瑄 Brian Su': '剛讀完大二的臺大資訊系學生，即將在暑假後成為大三生。高中時期不務正業，幾乎是個全職的程式競賽選手，參加過大大小小的比賽，並曾在亞塞拜然以臺灣歷史最佳名次拿下了國際資奧金牌。當過一年 SITCON Camp 的學員、一年的 SITCON 與會者、兩年的 SITCON 工人、以及今年看起來要成為 SITCON Camp 的講師，這淵源實在是兩三下講不完。目前在當個正常的大學生，偶爾打打大學的程式競賽。對後端開發及系統維護小有興趣，這個暑假也在因緣際會下去了金融公司實習。希望在這麼多不同領域間遊蕩的同時可以多少都把事情做好一點。'
+        橋毅: {
+            description: '哈溜，我是橋毅，目前是嘉義高中高三生。'
+        },
+        'Denny Huang': {
+            description: 'SITCON 學生計算機年會共同發起人，目前於雷亞遊戲（Rayark Inc.）擔任 Data Team Lead；在正規教育中特例獨行，妄想透過改善教育讓台灣更進步，崇尚開源精神，熱愛使用者界面以外的多項技術。',
+            avatar: '/2021/avatar/denny.jpg'
+        },
+        CSY: {
+            description: '目前就讀於<span style="color: #0000">陽明</span>交通大學，即將成為 Suffermore。正在朝著 Full Stack Developer 邁進，最愛的編（I）輯（D）器（E）是 Vim。剛踏入資訊安全的大門，偶爾會打打 CTF，歡迎交流><'
+        },
+        康喔: {
+            description: '嗨嗨，我是康喔，一個在台科爆肝的大二生，對什麼感興趣就會沒日沒夜的研究，這就是爆肝的開頭吧？'
+        },
+        '短短（Yichin）': {
+            description: 'HITCON GIRLS 成員<ul><li>大二參與資訊社群，接觸到 CTF 開始入門資安，於資安公司實習一年。</li><li>曾於 SITCON、CYBERSEC 分享資安 talk。</li><li>好奇心旺盛、興趣多元的準社畜。</li></ul>植物 / 甜點 / 瑜珈 / 閱讀 /  手沖 / 爬有繩子的山',
+            avatar: '/2021/avatar/Yichin.jpg'
+        },
+        Johnson: {
+            description: '自 2011 年初投入獨立遊戲開發相關活動推廣，在同好與朋友協助下，定期舉辦聚會、Game Jam 等社群活動，現為 IGDShare 獨立遊戲開發者分享會資深雜工、IGDA Taiwan 聯絡人，以及台北遊戲開發者論壇（TGDF）共同發起人。',
+            avatar: '/2021/avatar/Johnson.png'
+        },
+        'Allen Own': {
+            description: ''
+        },
+        IU: {
+            description: '熱愛開源的軟體工程師，目前在 UniverseTech 任職前端主管，業餘時間喜歡參與各項開源專案與社群活動。<br>包含知名前端 Vue 框架成員之一，幫忙維護 VSCode 與 Vue 的語言支持；同時參與 g0v Disfactory 專案，協助 NGO 處理臺灣農地工廠的問題；也當過唐鳳辦公室實習生，負責協助政府健檢網站。也曾在 SITCON, COSCUP, g0v summit, HITCON 當過志工，協助入場 APP 開發或是官網開發。在 SITCON 以前當過年會與此活動（夏令營）的總召。'
+        },
+        'Howard Wu': {
+            description: '',
+            avatar: '/2021/avatar/Howard Wu.jpg'
+        },
+        '蘇柏瑄 Brian Su': {
+            description: '剛讀完大二的臺大資訊系學生，即將在暑假後成為大三生。高中時期不務正業，幾乎是個全職的程式競賽選手，參加過大大小小的比賽，並曾在亞塞拜然以臺灣歷史最佳名次拿下了國際資奧金牌。當過一年 SITCON Camp 的學員、一年的 SITCON 與會者、兩年的 SITCON 工人、以及今年看起來要成為 SITCON Camp 的講師，這淵源實在是兩三下講不完。目前在當個正常的大學生，偶爾打打大學的程式競賽。對後端開發及系統維護小有興趣，這個暑假也在因緣際會下去了金融公司實習。希望在這麼多不同領域間遊蕩的同時可以多少都把事情做好一點。',
+            avatar: '/2021/avatar/Brian Su.jpg'
+        }
     }
 }
