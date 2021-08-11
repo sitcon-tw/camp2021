@@ -127,7 +127,7 @@
         </tr>
         <tr>
           <td>16:00</td>
-          <td rowspan="2">
+          <td rowspan="2" @click="showCourseInfo('觸碰飛船的運算核心')" class="clickable">
             觸碰飛船的運算核心
             <div class="subtitle">廣度課程</div>
           </td>
