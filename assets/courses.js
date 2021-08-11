@@ -74,13 +74,15 @@ export default {
             avatar: '/2021/avatar/Johnson.png'
         },
         'Allen Own': {
-            description: ''
+            description: '戴夫寇爾 DEVCORE 執行長、台灣駭客協會 HITCON 副理事長。具備多年駭客技術研究及資安輔導經驗，協助政府及企業化解防禦盲點，消除與攻擊方的資訊不對稱。曾任學術及政府單位專任講師及顧問，並熱衷於社群經營及分享，培育更多資安人才。專長於紅隊演練（Red Team）、滲透測試、企業資安風險盤點、專業教育訓練。',
+            avatar: '/2021/avatar/Allen Own.jpg'
         },
         IU: {
-            description: '熱愛開源的軟體工程師，目前在 UniverseTech 任職前端主管，業餘時間喜歡參與各項開源專案與社群活動。<br>包含知名前端 Vue 框架成員之一，幫忙維護 VSCode 與 Vue 的語言支持；同時參與 g0v Disfactory 專案，協助 NGO 處理臺灣農地工廠的問題；也當過唐鳳辦公室實習生，負責協助政府健檢網站。也曾在 SITCON, COSCUP, g0v summit, HITCON 當過志工，協助入場 APP 開發或是官網開發。在 SITCON 以前當過年會與此活動（夏令營）的總召。'
+            description: '熱愛開源的軟體工程師，目前在 UniverseTech 任職前端主管，業餘時間喜歡參與各項開源專案與社群活動。<br>包含知名前端 Vue 框架成員之一，幫忙維護 VSCode 與 Vue 的語言支持；同時參與 g0v Disfactory 專案，協助 NGO 處理臺灣農地工廠的問題；也當過唐鳳辦公室實習生，負責協助政府健檢網站。也曾在 SITCON、COSCUP、g0v summit、HITCON 當過志工，協助入場 APP 開發或是官網開發。在 SITCON 以前當過年會與此活動（夏令營）的總召。',
+            avatar: '/2021/avatar/IU.png'
         },
         'Howard Wu': {
-            description: '',
+            description: '好想工作室創辦人，在台南經營 co-working space，並且提供免費的資訊培育，以 mentor 引導、學員自主學習的方式，量產好品質的工程師。好想工作室也是台南資訊社群聚集地，舉辦超過 600 場公開講座，同時對接國內外的業界，讓從事資訊相關的年輕人可以根留台南。',
             avatar: '/2021/avatar/Howard Wu.jpg'
         },
         '蘇柏瑄 Brian Su': {

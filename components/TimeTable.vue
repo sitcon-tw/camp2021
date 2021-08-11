@@ -181,7 +181,7 @@
         Café），在本次夏令營中，我們邀請到各領域及社群知名前輩，將傳統座談會形式改以聊天的樣貌呈現。學員可以與資訊界的名人們近距離互動，期望透過縮短講者與學員之間的距離，講者可以更針對學員給出建議，也鼓勵學員踴躍提問、參與，進而產生良好的雙向交流。
       </div>
       <hr />
-      <div class="course-info-title">講者介紹 - 翁浩正（Allen Own） <img class="avatar" src="/2021/img/avatar.svg" /></div>
+      <div class="course-info-title">講者介紹 - 翁浩正（Allen Own） <img class="avatar" src="/2021/avatar/Allen Own.jpg" /></div>
       <div class="course-description">
         戴夫寇爾 DEVCORE 執行長、台灣駭客協會 HITCON
         副理事長。具備多年駭客技術研究及資安輔導經驗，協助政府及企業化解防禦盲點，消除與攻擊方的資訊不對稱。曾任學術及政府單位專任講師及顧問，並熱衷於社群經營及分享，培育更多資安人才。專長於紅隊演練（Red
@@ -192,7 +192,7 @@
         資安是什麼？大家一定有聽過，也知道資安的重要性。但資安為什麼重要？資安的工作又是什麼？到底駭客平常都在做什麼呢？我相信這些都是平常大家會有的疑問。這場課程會分享資安的趨勢以及資安產業的介紹，我也會以我自己的例子，跟大家聊聊如何找到每個人自我的定位。你對未來感到徬徨嗎？想往資安發展嗎？歡迎在這個時段跟我聊聊。
       </div>
       <hr />
-      <div class="course-info-title">講者介紹 - IU<img class="avatar" src="/2021/img/avatar.svg" /></div>
+      <div class="course-info-title">講者介紹 - IU<img class="avatar" src="/2021/avatar/IU.jpg" /></div>
       <div class="course-description">
         熱愛開源的軟體工程師，目前在 UniverseTech 任職前端主管，業餘時間喜歡參與各項開源專案與社群活動。<br />
         包含知名前端 Vue 框架成員之一，幫忙維護 VSCode 與 Vue 的語言支持；同時參與 g0v Disfactory 專案，協助 NGO
