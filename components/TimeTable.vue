@@ -181,7 +181,7 @@
         Café），在本次夏令營中，我們邀請到各領域及社群知名前輩，將傳統座談會形式改以聊天的樣貌呈現。學員可以與資訊界的名人們近距離互動，期望透過縮短講者與學員之間的距離，講者可以更針對學員給出建議，也鼓勵學員踴躍提問、參與，進而產生良好的雙向交流。
       </div>
       <hr />
-      <div class="course-info-title">講者介紹 - 翁浩正（Allen Own）</div>
+      <div class="course-info-title">講者介紹 - 翁浩正（Allen Own） <img class="avatar" src="/2021/img/avatar.svg" /></div>
       <div class="course-description">
         戴夫寇爾 DEVCORE 執行長、台灣駭客協會 HITCON
         副理事長。具備多年駭客技術研究及資安輔導經驗，協助政府及企業化解防禦盲點，消除與攻擊方的資訊不對稱。曾任學術及政府單位專任講師及顧問，並熱衷於社群經營及分享，培育更多資安人才。專長於紅隊演練（Red
@@ -192,7 +192,7 @@
         資安是什麼？大家一定有聽過，也知道資安的重要性。但資安為什麼重要？資安的工作又是什麼？到底駭客平常都在做什麼呢？我相信這些都是平常大家會有的疑問。這場課程會分享資安的趨勢以及資安產業的介紹，我也會以我自己的例子，跟大家聊聊如何找到每個人自我的定位。你對未來感到徬徨嗎？想往資安發展嗎？歡迎在這個時段跟我聊聊。
       </div>
       <hr />
-      <div class="course-info-title">講者介紹 - IU</div>
+      <div class="course-info-title">講者介紹 - IU<img class="avatar" src="/2021/img/avatar.svg" /></div>
       <div class="course-description">
         熱愛開源的軟體工程師，目前在 UniverseTech 任職前端主管，業餘時間喜歡參與各項開源專案與社群活動。<br />
         包含知名前端 Vue 框架成員之一，幫忙維護 VSCode 與 Vue 的語言支持；同時參與 g0v Disfactory 專案，協助 NGO
@@ -205,7 +205,7 @@
         想利用此機會分享一路上的各種心路歷程，給對此有興趣的人一些想法。
       </div>
       <hr />
-      <div class="course-info-title">講者介紹 - Howard Wu</div>
+      <div class="course-info-title">講者介紹 - Howard Wu <img class="avatar" src="/2021/avatar/Howard Wu.jpg" /></div>
       <div class="course-description">
         好想工作室創辦人，在台南經營 co-working space，並且提供免費的資訊培育，以 mentor
         引導、學員自主學習的方式，量產好品質的工程師。好想工作室也是台南資訊社群聚集地，舉辦超過 600
@@ -214,7 +214,7 @@
       <div class="course-info-title">分享大綱</div>
       <div class="course-description">TBD</div>
       <hr />
-      <div class="course-info-title">講者介紹 - 蘇柏瑄 Brian Su</div>
+      <div class="course-info-title">講者介紹 - 蘇柏瑄 Brian Su <img class="avatar" src="/2021/avatar/Brian Su.jpg" /></div>
       <div class="course-description">
         剛讀完大二的臺大資訊系學生，即將在暑假後成為大三生。高中時期不務正業，幾乎是個全職的程式競賽選手，參加過大大小小的比賽，並曾在亞塞拜然以臺灣歷史最佳名次拿下了國際資奧金牌。當過一年
         SITCON Camp 的學員、一年的 SITCON 與會者、兩年的 SITCON 工人、以及今年看起來要成為 SITCON Camp
