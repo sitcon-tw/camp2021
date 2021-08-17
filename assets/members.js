@@ -235,7 +235,39 @@ export default [{
     mail: "0bbcabecb50e45ff0fab43a99eaa106c",
     name: "Atlas"
 }, {
+    group: "主線課程助教組",
+    name: "nella17",
+    mail: "6892a845f40ad6c10dc583963c4f303b"
+}, {
+    group: "主線課程助教組",
+    name: "Leko",
+    mail: "c92453a89f02baa58c8b67c782c506e1"
+}, {
+    group: "主線課程助教組",
+    name: "Cro",
+    mail: "1bde46fe0e54e44f5a6ddc5f106cac2c"
+}, {
+    group: "主線課程助教組",
+    name: "MuMu",
+    mail: "2550a63ee6afdbf26d04880c3512ee56"
+}, {
+    group: "主線課程助教組",
+    name: "r888800009",
+    mail: "36d0b2b8858e1c1a15769b415e5be9f7"
+}, {
+    group: "主線課程助教組",
+    name: "William Mou",
+    mail: "9a51023daf8ec97748277899cf9683f7"
+}, {
+    group: "主線課程助教組",
+    name: "TC",
+    mail: "9ae8ff2c7e70c5a72b26898f6d2d066f"
+}, {
     group: "開發組",
     mail: "0ec6b0bf31c378645f536452d46adfb0",
     name: "可愛勝勝"
+}, {
+    group: "開發組",
+    mail: "12b44b53ebe566f75e5be79cfd13f004",
+    name: "海豹"
 }]
