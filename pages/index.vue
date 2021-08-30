@@ -263,6 +263,9 @@
         <div class="item">
           <img src="/2021/img/gather.svg" />
         </div>
+        <div class="item">
+          <img src="/2021/img/itsa.png" />
+        </div>
       </div>
     </div>
     <Dialog v-model="showSignupInfo">
