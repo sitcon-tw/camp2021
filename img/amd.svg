@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="logo"
+   width="800"
+   height="600"
+   sodipodi:docname="amd.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs15" />
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.4028125"
+     inkscape:cx="258.18464"
+     inkscape:cy="-31.031808"
+     inkscape:window-width="1458"
+     inkscape:window-height="1010"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="logo" />
+  <path
+     d="M 187.888,378.122 H 143.52 L 129.947,345.384 H 56.003 L 43.637,378.122 H 0 L 66.667,212.776 h 47.761 z M 91.155,252.286 66.912,316.53 h 50.913 z"
+     id="path2" />
+  <path
+     d="m 349.056,212.776 h 35.88 v 165.346 h -41.219 v -103.28 l -44.608,51.877 h -6.301 L 248.203,274.842 V 378.12 H 206.984 V 212.776 h 35.88 l 53.092,61.336 z"
+     id="path4" />
+  <path
+     d="m 489.375,212.776 c 60.364,0 91.391,37.573 91.391,82.909 0,47.517 -30.058,82.437 -96,82.437 H 416.397 V 212.776 Z m -31.762,135.041 h 26.906 c 41.457,0 53.823,-28.129 53.823,-52.377 0,-28.368 -15.276,-52.363 -54.308,-52.363 h -26.422 v 104.74 z"
+     id="path6" />
+  <polygon
+     points="800,0 800,189.21 748.028,137.235 748.028,51.981 662.769,51.981 610.797,0 "
+     id="polygon8"
+     transform="translate(0,200)" />
+  <polygon
+     points="609.2,190.802 684.089,190.802 737.594,137.296 662.708,137.296 662.708,62.397 609.2,115.903 "
+     id="polygon10"
+     transform="translate(0,200)" />
+</svg>
